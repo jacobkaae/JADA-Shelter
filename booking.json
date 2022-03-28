@@ -1,8 +1,5 @@
 [
     {
-        "_id": {
-            "$oid": "624192c83c26340e445e1bcg"
-        },
         "bruger": {
             "fornavn": "Lars",
             "efternavn": "Larsen",
