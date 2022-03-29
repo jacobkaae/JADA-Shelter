@@ -6,7 +6,7 @@ namespace shelterJADA.Shared
 {
     public class Shelter
     {
-        public _id _id { get; set; }
+        public ID _id { get; set; }
 
         public Properties Properties { get; set; }
 
@@ -23,11 +23,12 @@ namespace shelterJADA.Shared
         public int antal_pl { get; set; }
     }
 
-    public class _id
+    public class ID
     {
-        public string Oid { get; set; }
-    }
+        public ObjectId oid { get; set; }
 
+
+    }
 
     //// Laver constructor
     //public Shelter2(ObjectId ID, int KommuneKode, string KommuneNavn, string ShelterNavn, int AntalPladser, string KortBeskrivelse, string LangBeskrivelse)

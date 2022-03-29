@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{0F4B198E-6FC9-465D-9E4F-B62D0B9C4CDB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterJADA/Server/Shelters.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterJADA/Shared/Shelter.cs">
     <Files>
       <File FileName="shelterJADA/Server/Shelters.json" Line="1" Column="1" />
-      <File FileName="shelterJADA/Shared/EmptyClass.cs" Line="15" Column="6" />
-      <File FileName="shelterJADA/Client/Pages/ShelterData.razor" Line="31" Column="43" />
+      <File FileName="shelterJADA/Shared/EmptyClass.cs" Line="26" Column="5" />
+      <File FileName="shelterJADA/Client/Pages/ShelterData.razor" Line="31" Column="32" />
       <File FileName="shelterJADA/Client/Shared/NavMenu.razor" Line="28" Column="23" />
       <File FileName="shelterJADA/Server/Controllers/WeatherForecastController.cs" Line="41" Column="1" />
       <File FileName="shelterJADA/Server/Controllers/ShelterController.cs" Line="38" Column="1" />
       <File FileName="shelterJADA/Shared/WeatherForecast.cs" Line="1" Column="1" />
-      <File FileName="shelterJADA/Shared/Property.cs" Line="18" Column="1" />
       <File FileName="shelterJADA/Client/Program.cs" Line="1" Column="1" />
       <File FileName="shelterJADA/Server/Program.cs" Line="1" Column="1" />
     </Files>
@@ -20,9 +19,7 @@
               <Node name="Pages" expanded="True" />
             </Node>
             <Node name="shelterJADA.Server" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ShelterController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="shelterJADA.Shared" expanded="True" />
           </Node>
@@ -37,7 +34,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-</Properties>tore />
+</Properties>kpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

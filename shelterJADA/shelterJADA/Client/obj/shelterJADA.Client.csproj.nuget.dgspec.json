@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[2.15.0, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
@@ -129,6 +133,10 @@
           "targetAlias": "net5.0",
           "dependencies": {
             "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.15.0, )"
             },
