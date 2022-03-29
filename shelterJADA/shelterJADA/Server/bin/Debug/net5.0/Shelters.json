@@ -1,0 +1,573 @@
+[{
+  "_id": {
+    "$oid": "624192c83c26340e445e1b7a"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelterplads i Stavtrup",
+    "beskrivels": null,
+    "lang_beskr": null,
+    "antal_pl": 2
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1b91"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Telt- og shelterplads ved Ans Søbred",
+    "beskrivels": "Søgade 29, 8643 Ans By",
+    "lang_beskr": "<p><span style=\"color: rgb(51, 51, 51);\">Fin stor plæne med shelter og bålhus. Der er plads til 10-15</span></p><p><span style=\"color: rgb(51, 51, 51);\">telte. Overnatning på pladsen er forbeholdt folk der færdes på og ved Gudenåen,</span></p><p><span style=\"color: rgb(51, 51, 51);\">og kun en nat. Teltpladsen ligger i forbindelse med et parklignende område, med</span></p><p><span style=\"color: rgb(51, 51, 51);\">toiletfaciliteter. Afstand til toilet ca. 50 m. Toilettet er åbent i perioden</span></p><p><span style=\"color: rgb(51, 51, 51);\">1. april til 15. oktober. Indkøb ca. 1 km. Adgangen til sheltere og teltplads</span></p><p><span style=\"color: rgb(51, 51, 51);\">kan være begrænset ved arrangementer. </span></p>",
+    "antal_pl": 10
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1bb6"
+  },
+  "properties": {
+    "cvr_navn": "Sorø Kommune",
+    "kommunekode": 340,
+    "facil_ty": "Shelter",
+    "navn": "Bromme Plantage",
+    "beskrivels": "Pladsen ligger p&aring; Brommecentrets jord og er en gr&aelig;smark med sm&aring; tr&aelig;er. Shelter til 8 personer. Pladsen ligger i et skovhj&oslash;rne 150 m syd for centret. Brommecentret ved udlejer Anette Olsen, .../læs mere på friluftsguiden.dk.",
+    "lang_beskr": null,
+    "antal_pl": 7
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1bba"
+  },
+  "properties": {
+    "cvr_navn": "Sorø Kommune",
+    "kommunekode": 340,
+    "facil_ty": "Shelter",
+    "navn": "Nyrup, Flinterup",
+    "beskrivels": "Pladsen ligger ved nedlagt husmandssted p&aring; 3 tdr. land. Her er heste, h&oslash;ns, kat og kaniner. 3 km til indk&oslash;b. Nanna Skov Nielsen og Tomas Bilde, tlf. 57 80 31 18 Evt. telefonkontakt 8-22.",
+    "lang_beskr": null,
+    "antal_pl": 8
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1bc1"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Primitiv overnatningsplads ved Skorup             ",
+    "beskrivels": "Overnatningsplads ved Gjernbanen",
+    "lang_beskr": "<p><br></p><p>Lille, hyggelig overnatningsplads ved Gjernbanen, Skorup lidt nord for Fårvang.</p><p>Pladsen er indrettet med shelter, tørkloset, bålsted m. grillrist samt drikkevand fra egen boring, gammeldags vandpost.</p><p>Gode læforhold. Plads til et par mindre telte.</p><p>Pladsen kan bookes via Silkeborg Kommunes fritidsportal:</p><p><a href=\"https://fritidsportalen.silkeborg.dk/default.asp?wkid=10023&navid=1\" rel=\"noopener noreferrer\" target=\"_blank\">https://fritidsportalen.silkeborg.dk/default.asp?wkid=10023&navid=1</a></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+    "antal_pl": 2
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1bc3"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Primitiv overnatningsplads ved Lille Amerika      ",
+    "beskrivels": "Overnatningsplads ved Gjernbanen og kommuneskov",
+    "lang_beskr": "<p><br></p><p>Lille, hyggelig plads i den kommunalt ejede Amerika Plantage, tæt ved Gjernbanen. Pladsen er forsynet med shelter, bålplads og bord- og bænkesæt.</p><p>Ca. 150 m fra pladsen er der en drikkevandsboring, som er forsynet med gammeldags vandpost. Samme sted findes et multtoilet.</p><p>Shelteret kan bookes via Silkeborg Kommunes fritidsportal:</p><p><a href=\"https://fritidsportalen.silkeborg.dk/default.asp?wkid=10023&navid=1\" rel=\"noopener noreferrer\" target=\"_blank\">https://fritidsportalen.silkeborg.dk/default.asp?wkid=10023&navid=1</a></p><p><br></p><p><br></p><p><br></p>",
+    "antal_pl": 7
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1bcc"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Primitiv overnatningsplads ved Skeldalen          ",
+    "beskrivels": "<center><strong>Overnatningsplads øst for Bølling Sø, ved hærvejsvandreruten.</strong></center>                                                                                                                                                               ",
+    "lang_beskr": "<p><br></p><p> Større plads, indrettet med to shelters, bålsted m. grillrist, tørkloset og drikkevand fra egen boring, gammeldags vandpost.</p><p> Der er plads til flere telte</p><p> Pladsen er fredeligt beliggende nær Bølling Sø.</p><p> Pladsen kan ikke bookes.</p><p><br></p><p><br></p><p><br></p><p><br></p>",
+    "antal_pl": 9
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1bcf"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Primitiv overnatningsplads ved Christianshøj      ",
+    "beskrivels": "Primitiv overnatningsplads på Hærvejen.                                                                                                                                                                                     ",
+    "lang_beskr": "<p><br></p><p>Primitiv overnatningsplads på Hærvejsvandreruten. Pladsen ligger i udkanten af et kommunalt ejet skovområde.</p><p>Pladsen er forsynet med shelter, bålsted, drikkevand året rundt fra frostfri hane samt multtoilet.</p><p>Der er også mulighed for at slå et mindre antal telte op på pladsen.</p><p>Pladsen kan ikke bookes.</p><p><br></p><p><br></p><p><br></p><p><br></p>",
+    "antal_pl": 10
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1bd0"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Primitiv overnatningsplads ved Den Skæve Bane     ",
+    "beskrivels": "Overnatningsplads ved Den Skæve Bane/Hærvejsvandreruten",
+    "lang_beskr": "<p><br></p><p>Lille, hyggelig plads ved naturstien og Hærvejsvandreruten.</p><p>Pladsen er indrettet med shelter, bålsted m. grillrist, tørkloset samt vand fra egen boring. Boringen blev renset for okker i foråret 2021..</p><p>Der kan være lidt misfarvning på grund af okker, men vandet er ikke sundhedsskadeligt. Det kan hjælpe at pumpe nogle liter vand op, inden man drikker af det. Vi foretager drikkevandsanalyse af boringen hvert år.</p><p><br></p><p><br></p>",
+    "antal_pl": 3
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1bfa"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Hampknold i Sminge Plantage",
+    "beskrivels": "Primitiv overnatnings plads med et shelter",
+    "lang_beskr": "<p>Shelter og lille bålsted ved udsigtspunktet Hampknold i Sminge Plantage. Der er ikke vand på stedet og ej heller toilet.</p><p>Shelteret kan bookes via Silkeborg Kommunes fritidsportal: <a href=\"https://fritidsportalen.silkeborg.dk/default.asp?wkid=10023&navid=1\" rel=\"noopener noreferrer\" target=\"_blank\">https://fritidsportalen.silkeborg.dk/default.asp?wkid=10023&navid=1</a></p>",
+    "antal_pl": 5
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1c00"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "De Små Fisk – telt- og Shelterplads for folk der færdes på og ved Gudenåen.",
+    "beskrivels": "<center><strong>Sejsvej 40, 8600 Silkeborg</strong></center>",
+    "lang_beskr": "<p>Kommunal teltplads på naturområde direkte ned til Brassø med adgang</p><p>fra vandet.</p><p>Pladsen ligger syd for vejen fra Silkeborg til Sejs, umiddelbart</p><p>inden Sejs, ca. 3 km fra Silkeborg.</p><p> </p><p><u>Overnatningsmuligheder: </u></p><p>De Små Fisk kan kun benyttes som dagcamping det vil sig at der som udgangspunkt ikke må overnattes på pladsen. Der er dog mulighed for at overnatte primitivt på De Små Fisk – i telt på teltpladsen eller i shelter hvis du kommer til pladsen fra søsiden i kano eller kajak, eller som vandrer på Himmelbjergruten. De to shelter tættest på Brassø er forbeholdt kano og kajakroere. De fire shelter længest væk fra Brassø kan også benyttes af publikum på Himmelbjergruten.</p><p>Det er ikke muligt at booke shelter eller teltplads så det er efter først til mølle princippet. Du må kun have en overnatning på pladsen før du drager videre.</p><p> </p><p><u>Adgang til faciliteter:</u></p><p>Shelter tættest på toiletbygning er indrettet med bl.a.</p><p>personlift, udtræksleje og traverslift. Enkeltpersoner eller grupper af</p><p>personer med bevægelseshandicap har fortrinsret til denne shelter.</p>",
+    "antal_pl": 1
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1c03"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Sminge Sø",
+    "beskrivels": "Primitiv overnatningsplads med to shelters.",
+    "lang_beskr": "<p>To shelters i tilknytning til P-plads og madpakkehus. Pladsen ligger tæt ved Sminge Sø og Trækstien med udsigt over søen. 2-300 m derfra findes et toilet, som er åbent i sommerhalvåret. Her kan man tappe drikkevand ved håndvasken.</p><p>Der findes desuden et madpakkehus ved pladsen.</p><p><br></p><p>De to shelters kan bookes via Silkeborg Kommunes fritidsportal:</p><p><a href=\"https://fritidsportalen.silkeborg.dk/default.asp?wkid=10023&navid=1\" rel=\"noopener noreferrer\" target=\"_blank\">https://fritidsportalen.silkeborg.dk/default.asp?wkid=10023&navid=1</a></p>",
+    "antal_pl": 6
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1c05"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Hinge søbad",
+    "beskrivels": "Vinderslevholmvej 64, 8620 Kjellerup",
+    "lang_beskr": "<p><span style=\"background-color: rgb(246, 246, 246);\">Hinge Sø ligger i rolige omgivelser syd for Kjellerup, og søen rummer et enkelt offentligt badested (Hinge søbad). Der er badebro, sandstrand, toiletfaciliteter og borde-bænkesæt ved søbadet. Madpakkehus og bål / grill sted. Toiletbygningen er åben i perioden 1. april til 15. oktober.</span></p><p><span style=\"background-color: rgb(246, 246, 246);\">Det omkringliggende opholdsareal er delvist skovbevokset.</span></p><p><br></p><p><span style=\"background-color: rgb(246, 246, 246);\">Søen er meget næringsrig, og modtager væsentlige mængder næringsstoffer. De mange næringsstoffer betyder, at der ofte er mange alger i Hinge sø, hvilket påvirker badevandskvaliteten. Algerne kan være giftige, og man bør ikke bade, hvis vandet er grønligt eller uklart.</span></p><p><br></p><p><br></p>",
+    "antal_pl": 5
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1c07"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Hinge søbad",
+    "beskrivels": "Vinderslevholmvej 64, 8620 Kjellerup",
+    "lang_beskr": "<p><span style=\"background-color: rgb(246, 246, 246);\">Hinge Sø ligger i rolige omgivelser syd for Kjellerup, og søen rummer et enkelt offentligt badested (Hinge søbad). Der er badebro, sandstrand, toiletfaciliteter og borde-bænkesæt ved søbadet. Madpakkehus og bål / grill sted. Toiletbygningen er åben i perioden 1. april til 15. oktober.</span></p><p><span style=\"background-color: rgb(246, 246, 246);\">Det omkringliggende opholdsareal er delvist skovbevokset.</span></p><p><br></p><p><span style=\"background-color: rgb(246, 246, 246);\">Søen er meget næringsrig, og modtager væsentlige mængder næringsstoffer. De mange næringsstoffer betyder, at der ofte er mange alger i Hinge sø, hvilket påvirker badevandskvaliteten. Algerne kan være giftige, og man bør ikke bade, hvis vandet er grønligt eller uklart.</span></p><p><br></p><p><br></p>",
+    "antal_pl": 4
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1c0a"
+  },
+  "properties": {
+    "cvr_navn": "Fredericia Kommune",
+    "kommunekode": 607,
+    "facil_ty": "Shelter",
+    "navn": "Madsbyparkens shelterplads",
+    "beskrivels": "Oplev den 50 hektar store naturområde midt i Fredericia by. Med denne nye shelterplads kan du opleve  friluftslivet meget tæt på et naturskønt område med Madsby Legepark lige i baghaven",
+    "lang_beskr": "<p>Tag i Madsby Legepark – et tilbud til hele familien med gratis adgang hele året rundt.</p><p>Madsby Legepark er et slaraffenland for aktive børn og deres voksne. Her er rigeligt med aktiviteter til en hel dags udflugt.</p><p>Slå jer løs på den store <em>sandlegeplads</em> for børn i alle aldre. Drøn derudaf på <em>Mooncar-banen</em> eller sving jer afsted på <em>Tarzanbanen</em> i skoven. Har I brug for en pause, kan I slappe af med <em>dukketeater.</em></p><p>De fleste af parkens tilbud er gratis – dog er enkelte aktiviteter mod betaling: for priser mellem 15-50 kr. pr. person kan man spille <em>minigolf</em>, køre en tur i <em>Madsbytoget</em>, <em>leje en robåd</em> og sejle en tur på søen eller finde sin indre tumling frem i de sjove <em>Waterballs</em>.</p><p>Madsby Legepark ligger kun 600 meter fra shelterpladsen.</p><p>Obs på toiletforhold. I øjeblikket er toiletterne i minibyen der har åben fra kl. 10-18 hver dag.</p><p>Madsby Legeparks toiletter kan bruges i åbningstiden.</p><p>Rigtig god fornøjelse.</p>",
+    "antal_pl": 7
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1c14"
+  },
+  "properties": {
+    "cvr_navn": "Skanderborg Kommune",
+    "kommunekode": 746,
+    "facil_ty": "Shelter",
+    "navn": "Tingdalen                                         ",
+    "beskrivels": "                                                                                                                                                                                                                                                              ",
+    "lang_beskr": "Pladsadresse: Ved Tingdalvej 1 Mesing, 8660 Skanderborg. Shelter i udkanten af skoven. Det er ikke muligt at bruge telt, da terrænet skråner stærkt. Lokum til rådighed. Arealerne mod syd og øst er private. Tag altid alt affald med hjem og aflevere pladsen - Fra Mesing by går man ad Mesinggade ud på Tingdalvej. Forbi Arnelund (Tingdalvej 1) og videre ad markvej ca 600 m til lille p-plads, hvor vejen går ind i skoven. Her går man ad sti til venstre ned i Tingdalen, over broen og skråt op ad skrænten. Ring om pladsen i forvejen.",
+    "antal_pl": 3
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1c5a"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Overnatningsplads, Arena Midt                     ",
+    "beskrivels": "<center><strong>Primitiv overnatningsplads med shelters, bålplads m.m.</strong></center>                                                                                                                                                                      ",
+    "lang_beskr": "<strong>Dansk:</strong><br/>\r\n\r\nPrimitiv overnatningsplads med to shelters, plads til to små telte. Der er bålplads.- Gåafstand fra P-plads ca. 100 m.<br/><br/>\r\n\r\n<strong/>English:</strong><br/>\r\nPrimitive shelter site with two shelters and a fireplace in addition to room for a couple of small tents. Walking distance from the parking provision approximately 100 meters.<br/><br/>\r\n\r\n<strong>Deutsch:</strong><br/>\r\nPrimitiver Übernachtungsplatz mit zwei Shelterhütten und Platz für zwei kleinere Zelte. Dort befindet sich auch eine Feuerstelle. Vom Parkplatz sind es ca. 100 m. Fußweg.",
+    "antal_pl": 10
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1c86"
+  },
+  "properties": {
+    "cvr_navn": "Skanderborg Kommune",
+    "kommunekode": 746,
+    "facil_ty": "Shelter",
+    "navn": "Møgelhøj/Møllehøj                                 ",
+    "beskrivels": "Shelterplads med to shelters - Danmarks højeste beliggende!                                                                                                                                                                                                   ",
+    "lang_beskr": "<p><span style=\"font-family: calibri;\">Shelterplads med to shelters. Pladsen er indrettet med bålsted m. grillrist, borde-bænkesæt og multtoilet.</span></p>\r\n<p><span style=\"font-family: calibri;\">Shelterpladsen ligger naturskønt på privat mands jord på Møgelhøj, et af de højeste naturlige punkter i Danmark og er etableret i tilknytning til vandreruten &rdquo;Sporet i Ejer Bjerge&rdquo;. </span></p>",
+    "antal_pl": 3
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1c87"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelterplads Skødstrup Søndersø                   ",
+    "beskrivels": "Shelterplads med 2 shelters og bålplads                                                                                                                                                                                                                       ",
+    "lang_beskr": "Shelterplads med 2 shelters med hver plads til 4-6 personer, beliggende i den sydlige ende af Skødstrup. Pladsen har er stor græsareal og en mindre bålplads, og ligger i nærheden af Skødstrup Søndersø. Reservation er ikke muligt.",
+    "antal_pl": 5
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1c8b"
+  },
+  "properties": {
+    "cvr_navn": "Skanderborg Kommune",
+    "kommunekode": 746,
+    "facil_ty": "Shelter",
+    "navn": "Stjærskolens Shelter og Bålhytteplads             ",
+    "beskrivels": "Bag ved Stjærskolen ligger der et shelter (max. 4 voksne og 4 børn) samt en bålhytte der bookes hos skolen og benyttes.                                                                                                                                       ",
+    "lang_beskr": "Booket lørdag d. 14.-søndag d. 15. september 2019\r\n\r\nBag ved Stjærskolen ligger der et shelter (max. kapacitet 4 voksne og 4 børn) samt en bålhytte der bookes hos skolen og benyttes til overnatning. Det er også muligt at låne en kasse med bålgrej og en Dutchoven.\r\n\r\nKontakt: tina.haslev@skanderborg.dk",
+    "antal_pl": 1
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1c8c"
+  },
+  "properties": {
+    "cvr_navn": "Skanderborg Kommune",
+    "kommunekode": 746,
+    "facil_ty": "Shelter",
+    "navn": "Shelter ved Fælleden                              ",
+    "beskrivels": "Shelter med 4 - 6 liggepladser                                                                                                                                                                                                                                ",
+    "lang_beskr": "Der må ikke tændes bål ved pladsen.\r\n\r\nPladsen kan ikke forhåndsbookes - Det er først til mølle princip.",
+    "antal_pl": 5
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1ca8"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelter i Lisbjerg gammel skov",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 6
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1ca9"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelter i Vilhelmsborg Skov",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 7
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1caa"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelter ved Mariendal Strand",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 2
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1cab"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelter på Vestereng",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 5
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1cac"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelterplads ved Egå Engsø¸ - fem stk.",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 2
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1cad"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Madpakkehus i Æblehaven",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 1
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1cae"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Dagshelter i Hørhaven",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 2
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1caf"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelter i Hørhaven i skoven",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 9
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1cb1"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelter ved Moesgård Strand",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 9
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1cb3"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelter i Hørhaven på bakken",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 5
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1cb7"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelter i Gjellerup Skov",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 3
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1cb8"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelter i Moesgård Skov",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 1
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1ce3"
+  },
+  "properties": {
+    "cvr_navn": "Fredericia Kommune",
+    "kommunekode": 607,
+    "facil_ty": "Shelter",
+    "navn": "Shelter - Skærbæk Standparken                     ",
+    "beskrivels": "Shelter - Skærbæk Standparken                                                                                                                                                                                                                                 ",
+    "lang_beskr": "I skoven ved Skærbæk Strandpark er der mulighed for overnatning i Shelter. Der er i alt 4 stk. Der er offentligt toilet ved restauranten ca. 500 m fra shelterpladsen.Skærbæk ligger syd for Fredericia og stranden grænser op til skov og grønne områder. Stranden er udstyret med en badebro med mulighed for isætning af kanoer og kajakker. Desuden er der bålplads og toiletter samt borde og bænkesæt. Mad og drikke kan købes i restauranten direkte ved stranden. Nærmeste indkøbsmulighed er 1,3 km væk (Brugsen).\n\nStrandparken er et cirka 6 hektar stort offentligt naturområde ved Skærbæk by. Der fører stier rundt i området. Hunde i snor er tilladt.\n\nDer forefindes brænde i brændehytten ved shelterpladsen. Det koster 25 kr. og der betales til Mobile Pay nr. 953318. Fredericia Kommunes shelter- og teltpladser kan bookes på <a href=\"https://bookenshelter.dk/fyn/shelterplads/skaerbaek-strandpark/\">Book en shelter</a>. Pris 25,- kr pr overnatning pr. person.",
+    "antal_pl": 10
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1d17"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelter i Brendstrup Skov",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 6
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1d18"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelterplads i Lisbjerg ny skov - fem stk.",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 10
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1d1a"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Thorslykke shelter- og teltplads                ",
+    "beskrivels": "Naturskøn shelterplads på lille landsted med bondgårdsdyr.",
+    "lang_beskr": "<p>Mulighed for overnatning mod betaling i telt, shelters og campingvogn.</p><p><br></p><p>Der er kompost toilet, vandpost, bålplads, køle/fryseskab, strøm, gas-grill/komfur i lille udekøkken og p-plads 50 meter fra shelter.</p><p><br></p><p>Book via: <a href=\"https://www.thorslykke.dk/shelter/book-shelter/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.thorslykke.dk/shelter/book-shelter/</a></p><p><br></p><p>Ved spørgsmål kontakt Joachim på 2044 4550</p><p><br></p><p>Payment; cash or mobilepay</p>",
+    "antal_pl": 1
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1d33"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelterplads i Tranbjerg Skov",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 3
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1d34"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Åbo Skov, 2 shelters",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 7
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1d37"
+  },
+  "properties": {
+    "cvr_navn": "Aarhus Kommune",
+    "kommunekode": 751,
+    "facil_ty": "Shelter",
+    "navn": "Shelter i Mollerup Skov",
+    "beskrivels": null,
+    "lang_beskr": "Shelter skal bookes via friluftslivaarhus.dk",
+    "antal_pl": 3
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1d45"
+  },
+  "properties": {
+    "cvr_navn": "Fredericia Kommune",
+    "kommunekode": 607,
+    "facil_ty": "Shelter",
+    "navn": "Trelde Næs Shelter Nord",
+    "beskrivels": "Shelterplads (nær Avlsgården) på nord siden af Trelde Næs mod Vejle Fjord med 2 shelters",
+    "lang_beskr": "<p>Det yderste af Trelde Næs, 100 ha, er fredet og ejes af Fredericia Kommune. Der er offentlig adgang til det smukke naturområde, der både rummer skov, flotte kystskrænter og en god badestrand. Området hænger sammen med et større privatejet skovområde. I de privatejede skove må man gå og cykle, men kun på anlagte skovveje og stier. </p><p>Vand og (handicap-)toilet i gavlenden af avlsbygningen ved den store P-plads 300 m fra shelterpladsen. Toiletterne ved Naturcenteret er som udgangspunkt også åbne hele året, men kan blive lukket ned om vinteren hvis der er risiko for frostsprængninger. </p><p>Der er brænde ved avlsbygningen på den store P-plads (ca. 50 m op ad skovstien mod Shelterpaldsen Trelde Syd). Det koster 25,- og der skal betales til Mobile Pay nr. 953318.</p><p>Fredericia Kommunes shelterpladser kan bookes på <a href=\"https://bookenshelter.dk/fyn/shelterplads/trelde-naes-Nord/\" rel=\"noopener noreferrer\" target=\"_blank\">Book en shelter</a>.</p>",
+    "antal_pl": 1
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1d4a"
+  },
+  "properties": {
+    "cvr_navn": "Sorø Kommune",
+    "kommunekode": 340,
+    "facil_ty": "Shelter",
+    "navn": "2 shelters                                        ",
+    "beskrivels": "Shelters 2 stk til 6 personer i Slaglille-Bjernede ved Sorø                                                                                                                                                                                                   ",
+    "lang_beskr": "<p>I Slaglille-Bjernede ved den gamle rundkirke er der oprettet to stk shelters a 6 personer. Der er bålplads og adgang til vand i sommermånederne, og offentligt toilet nær ved. Shelterne er placeret i et roligt hjørne af den lokale sportsplads. .</p>",
+    "antal_pl": 4
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1d52"
+  },
+  "properties": {
+    "cvr_navn": "Fredericia Kommune",
+    "kommunekode": 607,
+    "facil_ty": "Shelter",
+    "navn": "Shelter på Trelde Næs Syd",
+    "beskrivels": "Shelterplads på Syd siden af Trelde Næs mod Lillebælt med 4 shelters.",
+    "lang_beskr": "<p>Det yderste af Trelde Næs, 100 ha, er fredet og ejes af Fredericia Kommune. Der er offentlig adgang til det smukke naturområde, der både rummer skov, flotte kystskrænter og en god badestrand. Området hænger sammen med et større privatejet skovområde. </p><p>Vand og (handicap-)toilet i gavlenden af avlsbygningen ved den store P-plads, ca. 1 km fra pladsen. Naturcenteret rummer adgang til toiletter, men bliver lukket ned om vinteren. </p><p>Der er brænde på vej op ad skovvejen fra avlsbygningen til Trelde Næs syd fra den store P-plads. Det koster 25,- og der skal betales til Mobile Pay nr. 953318. </p><p>Hunde i snor er tilladt. </p><p>Nærmeste indkøbsmulighed er Minimarkedet på campingpladsen i 1,6 km afstand og ellers Daglig Brugs i Egeskov, ca. 7,4 km fra pladsen. </p><p>Fredericia Kommunes shelter- og teltpladser kan bookes på <a href=\"https://bookenshelter.dk/fyn/shelterplads/trelde-naes-Syd/\" rel=\"noopener noreferrer\" target=\"_blank\">Book en shelter</a>.</p>",
+    "antal_pl": 6
+  }
+},{
+  "_id": {
+    "$oid": "624192c83c26340e445e1d95"
+  },
+  "properties": {
+    "cvr_navn": "Silkeborg Kommune",
+    "kommunekode": 740,
+    "facil_ty": "Shelter",
+    "navn": "Telt- og shelterplads ved Kongensbro              ",
+    "beskrivels": "Telt- og shelterplads for kanofarere og vandrere på Trækstien.",
+    "lang_beskr": "<p><strong>Dansk:</strong></p><p>Privat ejet plads med shelters og plads til telte. Her er indrettet med bålplads og bord- og bænkesæt.</p><p>I tilknytning til pladsen findes et offentligt toilet, som er åbent i sommerhalvåret fra medio april til medio oktober.</p><p>Man kan booke plads hos Silkeborg Kanocenter på tlf. 86 80 30 03. Det koster 25 kr. for børn at overnatte og 50 kr. for voksne.</p><p><br></p><p><strong>English:</strong></p><p>Privately owed tent and shelter site along the river Gudenåen and the footpath Trækstien. The site is for hikers and travelers by canoe. The site is equipped with a fire ring and tabels and benches.</p><p>Close by you will find a public restroom. The restroom is open during the summer from the middel of April until the middel of October.</p><p>It is possible to book the site for the night at Silkeborg Kanocenter, please phone 86 80 30 03. The overnight fee is 25 DKr a child and 50 DKr for an adult.</p>",
+    "antal_pl": 7
+  }
+}]

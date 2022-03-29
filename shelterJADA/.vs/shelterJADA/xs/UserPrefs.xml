@@ -1,15 +1,24 @@
 ﻿<Properties StartupConfiguration="{0F4B198E-6FC9-465D-9E4F-B62D0B9C4CDB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterJADA/Shared/EmptyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterJADA/Server/Controllers/ShelterController.cs">
     <Files>
       <File FileName="shelterJADA/Server/Shelters.json" Line="1" Column="1" />
-      <File FileName="shelterJADA/Shared/EmptyClass.cs" Line="4" Column="20" />
+      <File FileName="shelterJADA/Shared/EmptyClass.cs" Line="16" Column="20" />
+      <File FileName="shelterJADA/Client/Pages/ShelterData.razor" Line="38" Column="8" />
+      <File FileName="shelterJADA/Client/Shared/NavMenu.razor" Line="28" Column="23" />
+      <File FileName="shelterJADA/Server/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="shelterJADA/Server/Controllers/ShelterController.cs" Line="13" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="shelterJADA" expanded="True">
-            <Node name="shelterJADA.Shared" expanded="True">
-              <Node name="EmptyClass.cs" selected="True" />
+            <Node name="shelterJADA.Client" expanded="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
+            <Node name="shelterJADA.Server" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ShelterController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
           <Node />

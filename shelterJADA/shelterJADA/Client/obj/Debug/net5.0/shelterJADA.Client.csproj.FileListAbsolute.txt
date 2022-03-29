@@ -638,3 +638,8 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/shelterJADA.Client.pdb
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/serviceworkers/wwwroot/service-worker.js
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/service-worker-assets.js
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Bson.dll.gz
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Bson.dll
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/RazorDeclaration/Pages/ShelterData.razor.g.cs
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/Pages/ShelterData.razor.g.cs
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/+SD1cmAo.gz
