@@ -28,13 +28,13 @@ else
             @foreach (var shelter in ShelterListe)
             {
             <tr>
-                <td>@shelter.KommuneNavn</td>
-                @*<td>@forecast.TemperatureC</td>
-                <td>@forecast.TemperatureF</td>
-                <td>@forecast.Summary</td>
-                <td>@forecast.Summary</td>
-                <td>@forecast.Summary</td>
-                <td>@forecast.Summary</td>*@
+                <td>@shelter._id.Oid.ToString()</td>
+                <td>@shelter.Properties.kommunekode</td>
+                <td>@shelter.Properties.cvr_navn</td>
+                <td>@shelter.Properties.navn</td>
+                <td>@shelter.Properties.antal_pl</td>
+                <td>@shelter.Properties.beskrivels</td>
+                <td>@shelter.Properties.lang_beskr</td>
             </tr>
             }
         </tbody>

@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{0F4B198E-6FC9-465D-9E4F-B62D0B9C4CDB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterJADA/Server/Controllers/ShelterController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterJADA/Server/Shelters.json">
     <Files>
       <File FileName="shelterJADA/Server/Shelters.json" Line="1" Column="1" />
-      <File FileName="shelterJADA/Shared/EmptyClass.cs" Line="22" Column="159" />
-      <File FileName="shelterJADA/Client/Pages/ShelterData.razor" Line="31" Column="23" />
+      <File FileName="shelterJADA/Shared/EmptyClass.cs" Line="15" Column="6" />
+      <File FileName="shelterJADA/Client/Pages/ShelterData.razor" Line="31" Column="43" />
       <File FileName="shelterJADA/Client/Shared/NavMenu.razor" Line="28" Column="23" />
       <File FileName="shelterJADA/Server/Controllers/WeatherForecastController.cs" Line="41" Column="1" />
-      <File FileName="shelterJADA/Server/Controllers/ShelterController.cs" Line="40" Column="96" />
+      <File FileName="shelterJADA/Server/Controllers/ShelterController.cs" Line="38" Column="1" />
       <File FileName="shelterJADA/Shared/WeatherForecast.cs" Line="1" Column="1" />
-      <File FileName="shelterJADA/Shared/Property.cs" Line="6" Column="19" />
+      <File FileName="shelterJADA/Shared/Property.cs" Line="18" Column="1" />
       <File FileName="shelterJADA/Client/Program.cs" Line="1" Column="1" />
+      <File FileName="shelterJADA/Server/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,11 +31,13 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.shelterJADA.Server PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>tore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

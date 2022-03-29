@@ -25,16 +25,17 @@ namespace shelterJADA.Server.Controllers
 
         // Logik til at hente data ned fra .json dokument (ligger lokalt på server)
         [HttpGet]
-        public IEnumerable<ShoppingItem> Get()
+        public IEnumerable<Shelter> Get()
         {
-            List<ShoppingItem> items;
+            List<Shelter> shelters;
 
-            using (StreamReader r = new StreamReader("Hangover.json"))
+            using (StreamReader r = new StreamReader("Shelters.json"))
             {
                 string json = r.ReadToEnd();
-                items = JsonConvert.DeserializeObject<List<ShoppingItem>>(json);
 
-                return items;
+                shelters = JsonConvert.DeserializeObject<List<Shelter>>(json);
+
+                return shelters;
             }
 
 
@@ -43,10 +44,27 @@ namespace shelterJADA.Server.Controllers
 
 
 
+      
+
+
+        //        foreach (var item in liste)
+        //        {
+        //            float price = (float)item["price"];
+        //OnlineItem nytOnlineItem = new OnlineItem($"{item["title"]}", false, price, $"{item["description"]}");
+
+        //virkNuPlz.Add(nytOnlineItem);
+        //        }
+
+        //        return virkNuPlz;
+               
 
 
 
-    }
-        }
+
+
+
+
+    
+        
     }
 }
