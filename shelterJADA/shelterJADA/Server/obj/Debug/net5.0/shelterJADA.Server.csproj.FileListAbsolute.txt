@@ -59,3 +59,4 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/obj/Debug/net5.0/shelterJADA.Server.genruntimeconfig.cache
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/Shelters.json
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/MongoDB.Bson.dll
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/Newtonsoft.Json.dll

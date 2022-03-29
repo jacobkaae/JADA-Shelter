@@ -30,6 +30,7 @@
       "Microsoft.JSInterop.dll": "sha256-lRltBpsJTXW9P43UvwnTc\/\/08+GI\/C70tkuJaUjJMv0=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-IjG42rZjbdAnOMJMlqcJW3tLJh2lwkStSndPy7zjZV4=",
       "MongoDB.Bson.dll": "sha256-FQmshbUHNBV5fRs5zXfQ42OAPyqrc97\/v069WvNOALA=",
+      "Newtonsoft.Json.dll": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
       "System.IO.Pipelines.dll": "sha256-\/C5xhI+m3Aqrcjxy\/TauLyqv\/\/5l8WEW3rXFtVlNhy8=",
       "Microsoft.CSharp.dll": "sha256-WU\/XmUn6LEK2VOOdyAtkC6Vh2R9Adh+wIl16y74XXBc=",
       "Microsoft.VisualBasic.Core.dll": "sha256-TcReBfDd2McKyEbcdvA1vRmvpL5U1gRkhznMXBxkR9A=",
@@ -196,13 +197,13 @@
       "mscorlib.dll": "sha256-CbcIR45\/xUFaZJqGIle6bb7v2kWYjp4kOFpKNnCkd4I=",
       "netstandard.dll": "sha256-qE0Q70OyVlHYY\/Y3nwMjfh+zissea9uhfvWMvPWfI7w=",
       "System.Private.CoreLib.dll": "sha256-pdkcl2+OojCfrhxX5eFmKI30wAmhL6s+sCLp7s175k0=",
-      "shelterJADA.Shared.dll": "sha256-WEmk9O6Y5fgJVrDT3f7B2TVHsDIlPWCMGrc\/D2tASn8=",
-      "shelterJADA.Client.dll": "sha256-1FUAyEFLN8xJpXYmifJVbwCi0Y7v5H+Tsi0jQ\/RWjXc="
+      "shelterJADA.Shared.dll": "sha256-TCvLgIl8mLPBYYSSAvwjGctvcchrQ9ZnNttW+iTm4NQ=",
+      "shelterJADA.Client.dll": "sha256-1qN\/OvR\/bAPMBpFIkHjMUBC1MLTHKrgz+gH3pv21Ono="
     },
     "lazyAssembly": null,
     "pdb": {
-      "shelterJADA.Shared.pdb": "sha256-Bn1b6BC5c1emkk1gyyAl9RnWJUDC2Q0tk5Q5ppwsoMQ=",
-      "shelterJADA.Client.pdb": "sha256-Zmw+mC5JQJgPs2JgXzLmqL7KnQAOjYJN99g1ShbYMTw="
+      "shelterJADA.Shared.pdb": "sha256-YRLDyzNNgcPtaYueqW5GBP9MmwtBxmVz2eV\/Nc7PiyY=",
+      "shelterJADA.Client.pdb": "sha256-eF0W8l0hi9Q4qEWKGzY8uiOvmbjwpPd2cxlZ\/1T\/Crg="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-ootDKSA6cNAbgJLmPhrHsPVvVqkGEYdRZxucC22LWjw=",

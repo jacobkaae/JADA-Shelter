@@ -5,6 +5,7 @@ namespace shelterJADA.Shared
 {
     public class Shelter
     {
+        // Deklarerer variabler og tilføjer parametre (get/set)
         private ObjectId ID { get; set; }
 
         public string KommuneNavn { get; set; }
@@ -17,7 +18,7 @@ namespace shelterJADA.Shared
 
 
    
-
+        // Laver constructor
         public Shelter(ObjectId ID, int KommuneKode, string KommuneNavn, string ShelterNavn, int AntalPladser, string KortBeskrivelse, string LangBeskrivelse)
         {
             this.ID = ID;
@@ -29,6 +30,7 @@ namespace shelterJADA.Shared
             this.LangBeskrivelse = LangBeskrivelse;
         }
 
+        // Laver tom constructor
         public Shelter()
         {
         }

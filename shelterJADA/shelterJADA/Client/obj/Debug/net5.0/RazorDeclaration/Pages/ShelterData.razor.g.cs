@@ -98,13 +98,15 @@ using shelterJADA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/ShelterData.razor"
+#line 44 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/ShelterData.razor"
        
-    private WeatherForecast[] forecasts;
+
+    private List<Shelter> ShelterListe;
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("Shelter");
+
     }
 
 

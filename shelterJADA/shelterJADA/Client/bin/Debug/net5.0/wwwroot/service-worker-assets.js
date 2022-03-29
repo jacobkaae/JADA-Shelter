@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-QauqaH8yNVMuU8VB4gCvKZDrtZPy7gkXweaCfEp9u2A=",
+      "hash": "sha256-O\/q3XEJQqb+M2Yz5XTE2nBVEnM77h6rp92eg9l99Ht4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -95,6 +95,10 @@
     {
       "hash": "sha256-FQmshbUHNBV5fRs5zXfQ42OAPyqrc97\/v069WvNOALA=",
       "url": "_framework\/MongoDB.Bson.dll"
+    },
+    {
+      "hash": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
+      "url": "_framework\/Newtonsoft.Json.dll"
     },
     {
       "hash": "sha256-\/C5xhI+m3Aqrcjxy\/TauLyqv\/\/5l8WEW3rXFtVlNhy8=",
@@ -789,19 +793,19 @@
       "url": "_framework\/dotnet.5.0.15.js"
     },
     {
-      "hash": "sha256-WEmk9O6Y5fgJVrDT3f7B2TVHsDIlPWCMGrc\/D2tASn8=",
+      "hash": "sha256-TCvLgIl8mLPBYYSSAvwjGctvcchrQ9ZnNttW+iTm4NQ=",
       "url": "_framework\/shelterJADA.Shared.dll"
     },
     {
-      "hash": "sha256-Bn1b6BC5c1emkk1gyyAl9RnWJUDC2Q0tk5Q5ppwsoMQ=",
+      "hash": "sha256-YRLDyzNNgcPtaYueqW5GBP9MmwtBxmVz2eV\/Nc7PiyY=",
       "url": "_framework\/shelterJADA.Shared.pdb"
     },
     {
-      "hash": "sha256-1FUAyEFLN8xJpXYmifJVbwCi0Y7v5H+Tsi0jQ\/RWjXc=",
+      "hash": "sha256-1qN\/OvR\/bAPMBpFIkHjMUBC1MLTHKrgz+gH3pv21Ono=",
       "url": "_framework\/shelterJADA.Client.dll"
     },
     {
-      "hash": "sha256-Zmw+mC5JQJgPs2JgXzLmqL7KnQAOjYJN99g1ShbYMTw=",
+      "hash": "sha256-eF0W8l0hi9Q4qEWKGzY8uiOvmbjwpPd2cxlZ\/1T\/Crg=",
       "url": "_framework\/shelterJADA.Client.pdb"
     },
     {
@@ -899,6 +903,10 @@
     {
       "hash": "sha256-zCsG38nvc\/59pSIQtTyWqE45DY0MTyKI9AnxEsD+nl8=",
       "url": "_framework\/MongoDB.Bson.dll.gz"
+    },
+    {
+      "hash": "sha256-QFRjz\/s4O7nP6m8uM3Qt2Q4UoZTUGGIrhEC8gqRRXLc=",
+      "url": "_framework\/Newtonsoft.Json.dll.gz"
     },
     {
       "hash": "sha256-gz8AI9kR2iZdwT7n3zSRTf5eHWs2R1ZzrEetk6rY3yY=",
@@ -1593,7 +1601,7 @@
       "url": "_framework\/dotnet.5.0.15.js.gz"
     },
     {
-      "hash": "sha256-NfJb\/ZG1LF\/PmxlmZwT76e8ItldS8c1\/JEBnNv+bjC0=",
+      "hash": "sha256-z+\/eTnrhhpSigLgjx32ixX2f1G2N+prFnyKaxXLSaoQ=",
       "url": "_framework\/shelterJADA.Shared.dll.gz"
     },
     {
@@ -1669,5 +1677,5 @@
       "url": "shelterJADA.Client.bundle.scp.css"
     }
   ],
-  "version": "2NYKGmcm"
+  "version": "NjRDWS2E"
 };

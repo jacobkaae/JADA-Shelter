@@ -643,3 +643,6 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/RazorDeclaration/Pages/ShelterData.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/Pages/ShelterData.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/+SD1cmAo.gz
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Newtonsoft.Json.dll.gz
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Newtonsoft.Json.dll
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/9FaZy36r.gz
