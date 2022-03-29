@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{0F4B198E-6FC9-465D-9E4F-B62D0B9C4CDB}|Default">
+  <MonoDevelop.Ide.ItemProperties.shelterJADA.Client FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="shelterJADA" expanded="True" selected="True">
+            <Node name="shelterJADA.Server" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.shelterJADA.Server FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.shelterJADA.Shared FirstBuild="True" />
+</Properties>
