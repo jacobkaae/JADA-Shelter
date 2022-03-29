@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3exht/k3mA5UbgXSjRs4FsR91eiOZN2HRu8dopJXQkcKdtlRAI2rQsM/tnJm91oJTsXTIgqjkNzASWjn/pNf9w==",
+  "dgSpecHash": "MMggP+EtboIOKyOtDMh6B/lJi+xj+M5dhgK5JC9JhaR1l0gEcJjKZXnJavOty5WWV/G9Dms1AVFs2E+vrZ9dHw==",
   "success": true,
   "projectFilePath": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/shelterJADA.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/jacobkaae/.nuget/packages/mongodb.bson/2.15.0/mongodb.bson.2.15.0.nupkg.sha512",
+    "/Users/jacobkaae/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

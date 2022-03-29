@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.15" />
+    <PackageReference Include="MongoDB.Bson" Version="2.15.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -14,4 +15,7 @@
   </ItemGroup>
 
 
+  <ItemGroup>
+    <None Remove="MongoDB.Bson" />
+  </ItemGroup>
 </Project>

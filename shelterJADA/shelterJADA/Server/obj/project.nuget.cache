@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZtX+Hm6z/CxJ+Bsq67Ur/+ADE8tD04YHXguZwri93cg0S6JuxWdW66aIYjlBRLK5ASKnHloG977xSHDtfLhucw==",
+  "dgSpecHash": "i1hdQrBdHKTOKbqwtHQNaq4kEVVcqMmwQoy+ABm03jsW71DWv70JcDivi5N6ciqLWg2rMwd8PuLxSRDAdhiyVA==",
   "success": true,
   "projectFilePath": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/shelterJADA.Server.csproj",
   "expectedPackageFiles": [
@@ -28,8 +28,10 @@
     "/Users/jacobkaae/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "/Users/jacobkaae/.nuget/packages/microsoft.jsinterop/5.0.15/microsoft.jsinterop.5.0.15.nupkg.sha512",
     "/Users/jacobkaae/.nuget/packages/microsoft.jsinterop.webassembly/5.0.15/microsoft.jsinterop.webassembly.5.0.15.nupkg.sha512",
+    "/Users/jacobkaae/.nuget/packages/mongodb.bson/2.15.0/mongodb.bson.2.15.0.nupkg.sha512",
     "/Users/jacobkaae/.nuget/packages/system.io.pipelines/5.0.2/system.io.pipelines.5.0.2.nupkg.sha512",
-    "/Users/jacobkaae/.nuget/packages/system.net.http.json/5.0.0/system.net.http.json.5.0.0.nupkg.sha512"
+    "/Users/jacobkaae/.nuget/packages/system.net.http.json/5.0.0/system.net.http.json.5.0.0.nupkg.sha512",
+    "/Users/jacobkaae/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

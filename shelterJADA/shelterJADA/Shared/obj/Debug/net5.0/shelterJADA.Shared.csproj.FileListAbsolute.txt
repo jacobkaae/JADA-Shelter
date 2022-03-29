@@ -1,0 +1,12 @@
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/bin/Debug/net5.0/shelterJADA.Shared.deps.json
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/bin/Debug/net5.0/shelterJADA.Shared.dll
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/bin/Debug/net5.0/ref/shelterJADA.Shared.dll
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/bin/Debug/net5.0/shelterJADA.Shared.pdb
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/Debug/net5.0/shelterJADA.Shared.csproj.AssemblyReference.cache
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/Debug/net5.0/shelterJADA.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/Debug/net5.0/shelterJADA.Shared.AssemblyInfoInputs.cache
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/Debug/net5.0/shelterJADA.Shared.AssemblyInfo.cs
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/Debug/net5.0/shelterJADA.Shared.csproj.CoreCompileInputs.cache
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/Debug/net5.0/shelterJADA.Shared.dll
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/Debug/net5.0/ref/shelterJADA.Shared.dll
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/Debug/net5.0/shelterJADA.Shared.pdb
