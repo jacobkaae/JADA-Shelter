@@ -25,16 +25,18 @@ else
             </tr>
         </thead>
         <tbody>
+            @*Laver loop med hvert item i ShelterListe*@
+
             @foreach (var shelter in ShelterListe)
             {
             <tr>
-                <td>f</td>
-                <td>@shelter.Properties.kommunekode</td>
-                <td>@shelter.Properties.cvr_navn</td>
-                <td>@shelter.Properties.navn</td>
-                <td>@shelter.Properties.antal_pl</td>
-                <td>@shelter.Properties.beskrivels</td>
-                <td>@shelter.Properties.lang_beskr</td>
+                <td>HEJ</td>
+                <td>@shelter.Properties.Kommunekode</td>
+                <td>@shelter.Properties.Cvr_navn</td>
+                <td>@shelter.Properties.Navn</td>
+                <td>@shelter.Properties.Antal_pl</td>
+                <td>@shelter.Properties.Beskrivels</td>
+                <td>@shelter.Properties.Lang_beskr</td>
             </tr>
             }
         </tbody>
@@ -43,11 +45,16 @@ else
 
 @code {
 
+    @*Laver en tom shelterliste*@
+
     private List<Shelter> ShelterListe;
+
+
+    @*Lægger data i shelterliste*@
 
     protected override async Task OnInitializedAsync()
     {
-        ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("Shelter");
+        ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB");
 
     }
 

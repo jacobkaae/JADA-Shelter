@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Security.Cryptography;
 using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace shelterJADA.Shared
 {
+
+    // Laver en class for en "Shelter"
     public class Shelter
     {
-        public ID _id { get; set; }
+        public string Id { get; set; }
 
         public Properties Properties { get; set; }
 
@@ -14,21 +17,16 @@ namespace shelterJADA.Shared
 
     public class Properties
     {
-        public string cvr_navn { get; set; }
-        public int kommunekode { get; set; }
-        public string facil_ty { get; set; }
-        public string navn { get; set; }
-        public string beskrivels { get; set; }
-        public string lang_beskr { get; set; }
-        public int antal_pl { get; set; }
+        public string Cvr_navn { get; set; }
+        public int Kommunekode { get; set; }
+        public string Facil_ty { get; set; }
+        public string Navn { get; set; }
+        public string Beskrivels { get; set; }
+        public string Lang_beskr { get; set; }
+        public int Antal_pl { get; set; }
     }
 
-    public class ID
-    {
-        public ObjectId oid { get; set; }
-
-
-    }
+   
 
     //// Laver constructor
     //public Shelter2(ObjectId ID, int KommuneKode, string KommuneNavn, string ShelterNavn, int AntalPladser, string KortBeskrivelse, string LangBeskrivelse)

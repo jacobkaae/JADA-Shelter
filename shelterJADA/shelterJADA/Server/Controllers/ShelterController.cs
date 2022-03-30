@@ -24,7 +24,7 @@ namespace shelterJADA.Server.Controllers
         }
 
         // Logik til at hente data ned fra .json dokument (ligger lokalt på server)
-        [HttpGet]
+        [HttpGet()]
         public IEnumerable<Shelter> Get()
         {
             List<Shelter> shelters;
