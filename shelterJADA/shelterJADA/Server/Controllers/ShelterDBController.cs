@@ -38,9 +38,6 @@ namespace shelterJADA.Server.Controllers
 
                 var collection = database.GetCollection<BsonDocument>("Shelters");
 
-
-                //var test = collection.Find("{facil_ty: 'Shelter'}").FirstOrDefault();
-
                 var list = await collection.Find(_ => true).ToListAsync();
 
                 List<Shelter> shelters = new List<Shelter>();
@@ -51,8 +48,6 @@ namespace shelterJADA.Server.Controllers
 
                     Properties opsætning = new Properties();
 
-                    shelter.Id = item["_id"].ToString();
-
                     opsætning.Cvr_navn = item["properties"]["cvr_navn"].ToString();
                     opsætning.Kommunekode = item["properties"]["kommunekode"].ToInt32();
                     opsætning.Facil_ty = item["properties"]["facil_ty"].ToString();
@@ -61,6 +56,7 @@ namespace shelterJADA.Server.Controllers
                     opsætning.Lang_beskr = item["properties"]["lang_beskr"].ToString();
                     opsætning.Antal_pl = item["properties"]["antal_pl"].ToInt32();
 
+                    shelter.Id = item["_id"].ToString();
                     shelter.Properties = opsætning;
 
                     shelters.Add(shelter);
@@ -70,7 +66,6 @@ namespace shelterJADA.Server.Controllers
                 return shelters;
 
 
-                //return shelters;
 
 
             }

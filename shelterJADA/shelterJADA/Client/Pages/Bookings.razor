@@ -1,0 +1,65 @@
+﻿@page "/bookings"
+@using shelterJADA.Shared
+@inject HttpClient Http
+
+<h1>Liste over bookings</h1>
+
+
+@if (BookingListe == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Shelternavn</th>
+                <th>ShelterID</th>
+                <th>Fornavn</th>
+                <th>Efternavn</th>
+                <th>Email</th>
+                <th>Telefon</th>
+                <th>Start Dato</th>
+                <th>Slut Dato </th>
+            </tr>
+        </thead>
+        <tbody>
+            @*Laver loop med hvert item i BookingListe*@
+
+            @foreach (var booking in BookingListe)
+            {
+            <tr>
+                <td>@booking.Id</td>
+                <td>@booking.Udlejet_Shelter.Shelter_Navn</td>
+                <td>@booking.Udlejet_Shelter.Shelter_Id</td>
+                <td>@booking.Bruger.Fornavn</td>
+                <td>@booking.Bruger.Efternavn</td>
+                <td>@booking.Bruger.Email</td>
+                <td>@booking.Bruger.Telefon</td>
+                <td>@booking.Start_Dato</td>
+                <td>@booking.Slut_Dato</td>
+
+            </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    @*Laver en tom shelterliste*@
+
+    private List<Booking> BookingListe;
+
+
+    @*Lægger data i shelterliste*@
+
+    protected override async Task OnInitializedAsync()
+    {
+        BookingListe = await Http.GetFromJsonAsync<List<Booking>>("BookingsDB");
+
+    }
+
+}

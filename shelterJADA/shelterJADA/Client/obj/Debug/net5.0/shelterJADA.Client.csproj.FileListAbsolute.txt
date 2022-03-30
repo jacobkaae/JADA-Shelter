@@ -423,9 +423,11 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/shelterJADA.Client.MvcApplicationPartsAssemblyInfo.cache
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/shelterJADA.Client.RazorComponent.input.cache
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Bookings.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/RazorDeclaration/Pages/OpretBooking.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/RazorDeclaration/Pages/ShelterData.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
@@ -437,9 +439,11 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/shelterJADA.Client.TagHelpers.output.cache
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/shelterJADA.Client.RazorCoreGenerate.cache
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/App.razor.g.cs
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/Pages/Bookings.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/Pages/Counter.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/Pages/OpretBooking.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/Pages/ShelterData.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/_Imports.razor.g.cs

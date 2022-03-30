@@ -1,16 +1,20 @@
 ﻿<Properties StartupConfiguration="{0F4B198E-6FC9-465D-9E4F-B62D0B9C4CDB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterJADA/Server/Controllers/ShelterDBController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterJADA/Server/Controllers/BookingsDB.cs">
     <Files>
       <File FileName="shelterJADA/Server/Shelters.json" Line="3" Column="10" />
-      <File FileName="shelterJADA/Client/Pages/ShelterData.razor" Line="36" Column="45" />
-      <File FileName="shelterJADA/Client/Shared/NavMenu.razor" />
-      <File FileName="shelterJADA/Server/Controllers/WeatherForecastController.cs" />
-      <File FileName="shelterJADA/Server/Controllers/ShelterController.cs" Line="26" Column="35" />
+      <File FileName="shelterJADA/Client/Pages/ShelterData.razor" Line="7" Column="62" />
+      <File FileName="shelterJADA/Client/Shared/NavMenu.razor" Line="32" Column="40" />
+      <File FileName="shelterJADA/Server/Controllers/WeatherForecastController.cs" Line="41" Column="1" />
+      <File FileName="shelterJADA/Server/Controllers/ShelterController.cs" Line="32" Column="11" />
       <File FileName="shelterJADA/Shared/WeatherForecast.cs" />
       <File FileName="shelterJADA/Client/Program.cs" />
-      <File FileName="shelterJADA/Server/Program.cs" />
-      <File FileName="shelterJADA/Server/Controllers/ShelterDBController.cs" Line="50" Column="28" />
-      <File FileName="shelterJADA/Shared/Shelter.cs" Line="1" Column="1" />
+      <File FileName="shelterJADA/Server/Program.cs" Line="16" Column="1" />
+      <File FileName="shelterJADA/Server/Controllers/ShelterDBController.cs" Line="19" Column="18" />
+      <File FileName="shelterJADA/Shared/Shelter.cs" Line="13" Column="1" />
+      <File FileName="shelterJADA/Client/Pages/OpretBooking.razor" Line="1" Column="1" />
+      <File FileName="shelterJADA/Client/Pages/Bookings.razor" Line="40" Column="49" />
+      <File FileName="shelterJADA/Shared/Booking.cs" Line="19" Column="15" />
+      <File FileName="shelterJADA/Server/Controllers/ShelterDBController (copy).cs" Line="70" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,14 +22,31 @@
           <Node name="shelterJADA" expanded="True">
             <Node name="shelterJADA.Client" expanded="True">
               <Node name="Pages" expanded="True" />
+              <Node name="Shared" expanded="True" />
             </Node>
             <Node name="shelterJADA.Server" expanded="True">
               <Node name="Controllers" expanded="True">
-                <Node name="ShelterDBController.cs" selected="True" />
+                <Node name="BookingsDB.cs" selected="True" />
               </Node>
+              <Node name="Pages" expanded="True" />
             </Node>
             <Node name="shelterJADA.Shared" expanded="True" />
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>shelters</Value>
+          <Value>collection</Value>
+          <Value>test</Value>
+          <Value>list</Value>
+          <Value>shelters</Value>
+          <Value>item</Value>
+          <Value>item["properties"]</Value>
+          <Value>item["properties"]["cvr_navn"]</Value>
+          <Value>item["properties"]["cvr_navn"].ToString()</Value>
+          <Value>opsætning</Value>
+          <Value>shelter.Properties</Value>
         </State>
       </Pad>
     </Pads>
@@ -34,7 +55,10 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/Controllers/BookingsDB.cs" relfile="shelterJADA/Server/Controllers/BookingsDB.cs" line="53" column="1" />
+      <Breakpoint file="/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/Controllers/BookingsDB.cs" relfile="shelterJADA/Server/Controllers/BookingsDB.cs" line="41" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
