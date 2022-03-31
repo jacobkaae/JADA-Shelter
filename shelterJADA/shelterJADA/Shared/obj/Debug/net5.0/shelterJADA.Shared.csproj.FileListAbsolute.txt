@@ -9,3 +9,4 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/Debug/net5.0/shelterJADA.Shared.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/Debug/net5.0/ref/shelterJADA.Shared.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/Debug/net5.0/shelterJADA.Shared.pdb
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/Debug/net5.0/shelterJADA.Shared.csproj.AssemblyReference.cache

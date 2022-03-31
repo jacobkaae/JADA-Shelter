@@ -98,7 +98,7 @@ using shelterJADA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 52 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/Bookings.razor"
+#line 53 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/Bookings.razor"
                                  
 
     private List<Booking> BookingListe;
@@ -110,7 +110,7 @@ using shelterJADA.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 57 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/Bookings.razor"
+#line 58 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/Bookings.razor"
                                   
 
     protected override async Task OnInitializedAsync()

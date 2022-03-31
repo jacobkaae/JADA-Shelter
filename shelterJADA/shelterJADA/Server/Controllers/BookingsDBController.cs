@@ -26,12 +26,24 @@ namespace shelterJADA.Server.Controllers
             this.logger = logger;
         }
 
+        [HttpPost()]
+        public async Task AddBooking(Booking nyBooking)
+        {
+            var client = new MongoClient("mongodb+srv://admin:cLQhpvD7G3wzvegG@cluster0.gyuyl.mongodb.net/Shelter?retryWrites=true&w=majority");
+
+            var database = client.GetDatabase("Shelter");
+
+            var collection = database.GetCollection<Booking>("Booking");
+
+            await collection.InsertOneAsync(nyBooking);
+        }
+
         // Logik til at hente data ned fra .json dokument (ligger lokalt på server)
         [HttpGet()]
         public async Task<IEnumerable<Booking>> GetAsync()
         {
             try
-            {                               
+            {
                 var client = new MongoClient("mongodb+srv://admin:cLQhpvD7G3wzvegG@cluster0.gyuyl.mongodb.net/Shelter?retryWrites=true&w=majority");
 
                 var database = client.GetDatabase("Shelter");
