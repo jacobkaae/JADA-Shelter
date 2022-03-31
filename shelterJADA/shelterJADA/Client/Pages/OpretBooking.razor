@@ -14,11 +14,11 @@
 
 @if (AntalKommuner != null)
 {
-<select>
+<select @onchange="vælgSheltere(nytitem)">
     <option selected>Vælg Kommune</option>
     @foreach (var item in AntalKommuner)
     {
-        <option>@item</option>
+        <option @bind="nytitem">@item</option>
     }
 </select>
 }
@@ -28,7 +28,7 @@
 
 
 @code {
-    private string fornavn, efternavn, email, telefon;
+    private string fornavn, efternavn, email, telefon, nytitem;
     private DateTime start_dato = DateTime.Now;
     private DateTime slut_dato = DateTime.Now.AddDays(1);
 
@@ -38,11 +38,16 @@
 
     protected override async Task OnInitializedAsync()
     {
-        AntalKommuner = await Http.GetFromJsonAsync<List<string>>("ShelterDB/kommune");
+        ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/all");
 
-        @*AntalKommuner = ShelterListe.Select(x => x.Properties.Cvr_navn).Distinct().ToList();*@
+        AntalKommuner = ShelterListe.Select(x => x.Properties.Cvr_navn).Distinct().ToList();
 
     }
+
+    private void vælgSheltere(string indsætnoget)
+        {
+            Console.WriteLine("OK");
+        } 
 
     protected async Task SendData()
     {

@@ -100,7 +100,7 @@ using shelterJADA.Shared;
 #nullable restore
 #line 30 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/OpretBooking.razor"
        
-    private string fornavn, efternavn, email, telefon;
+    private string fornavn, efternavn, email, telefon, dunno;
     private DateTime start_dato = DateTime.Now;
     private DateTime slut_dato = DateTime.Now.AddDays(1);
 
@@ -110,18 +110,16 @@ using shelterJADA.Shared;
 
     protected override async Task OnInitializedAsync()
     {
-        AntalKommuner = await Http.GetFromJsonAsync<List<string>>("ShelterDB/kommune");
+        ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/all");
 
-        
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 43 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/OpretBooking.razor"
-                                                                                                
+        AntalKommuner = ShelterListe.Select(x => x.Properties.Cvr_navn).Distinct().ToList();
 
     }
+
+    private void vælgSheltere()
+        {
+            Console.WriteLine(dunno);
+        } 
 
     protected async Task SendData()
     {
