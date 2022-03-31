@@ -8130,32 +8130,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/jacobkaae/.nuget/packages/": {}
+    "C:\\Users\\Jacob\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/shelterJADA.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Client\\shelterJADA.Client.csproj",
       "projectName": "shelterJADA.Client",
-      "projectPath": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/shelterJADA.Client.csproj",
-      "packagesPath": "/Users/jacobkaae/.nuget/packages/",
-      "outputPath": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/",
+      "projectPath": "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Client\\shelterJADA.Client.csproj",
+      "packagesPath": "C:\\Users\\Jacob\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jacobkaae/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/shelterJADA.Shared.csproj": {
-              "projectPath": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/shelterJADA.Shared.csproj"
+            "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj": {
+              "projectPath": "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj"
             }
           }
         }
@@ -8213,7 +8215,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-            "version": "[5.0.15, 5.0.15]"
+            "version": "[5.0.14, 5.0.14]"
           }
         ],
         "frameworkReferences": {
@@ -8221,7 +8223,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

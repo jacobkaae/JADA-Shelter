@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "10e8b996-ef38-4e0e-8585-64e4ba10aaec": {
+      "ProjectGuid": "10e8b996-ef38-4e0e-8585-64e4ba10aaec",
+      "DisplayName": "shelterJADA.Client",
+      "ColorIndex": 0
+    },
+    "0f4b198e-6fc9-465d-9e4f-b62d0b9c4cdb": {
+      "ProjectGuid": "0f4b198e-6fc9-465d-9e4f-b62d0b9c4cdb",
+      "DisplayName": "shelterJADA.Server",
+      "ColorIndex": 1
+    },
+    "f4631068-91d8-4906-80c5-7d92d4426ae8": {
+      "ProjectGuid": "f4631068-91d8-4906-80c5-7d92d4426ae8",
+      "DisplayName": "shelterJADA.Shared",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

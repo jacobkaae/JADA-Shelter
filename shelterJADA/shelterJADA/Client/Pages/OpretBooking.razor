@@ -12,28 +12,53 @@
 <input type="date" @bind="start_dato" />
 <input type="date" @bind="slut_dato" />
 
+
+
 @if (AntalKommuner != null)
 {
-<select @onchange="vælgSheltere(nytitem)">
+<select @onchange="vælgKommune">
     <option selected>Vælg Kommune</option>
     @foreach (var item in AntalKommuner)
     {
-        <option @bind="nytitem">@item</option>
+        <option value=@item>@item</option>
     }
 </select>
 }
 
-<input type="button" @onclick="SendData" value="Tilføj Indkøb" />
+
+
+
+<select @onchange="vælgShelter">
+    <option selected>Vælg Shelter</option>
+    @if (KommuneSheltere != null)
+{
+    @foreach (var item in KommuneSheltere)
+    {
+            <option value=@item.Id>@item.Properties.Navn</option>
+    }
+}
+</select>
+
+
+
+
+<input type="button" @onclick="SendData" value="Book Shelter" />
 <br />
 
 
+
+
 @code {
-    private string fornavn, efternavn, email, telefon, nytitem;
+    private string fornavn, efternavn, email, telefon, valgtKommune;
+
     private DateTime start_dato = DateTime.Now;
     private DateTime slut_dato = DateTime.Now.AddDays(1);
 
+    public Shelter valgteShelter = new Shelter();
     public List<Shelter> ShelterListe;
     public List<string> AntalKommuner = new List<string>();
+    public List<Shelter> KommuneSheltere;
+    
 
 
     protected override async Task OnInitializedAsync()
@@ -43,12 +68,45 @@
         AntalKommuner = ShelterListe.Select(x => x.Properties.Cvr_navn).Distinct().ToList();
 
     }
+    
+    //Finder sheltere baseret på valgte kommune
+    public async Task vælgKommune(ChangeEventArgs e)
+    {
+        valgtKommune = e.Value.ToString();
+        Console.WriteLine(valgtKommune);
 
-    private void vælgSheltere(string indsætnoget)
-        {
-            Console.WriteLine("OK");
-        } 
+        await GetKommuneSheltere(valgtKommune);
+    } 
 
+    //Get-funktion til at hente sheltere i controlleren
+    protected async Task<List<Shelter>> GetKommuneSheltere(string kommunenavn)
+    {
+        return KommuneSheltere = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/kommune");
+
+    }
+
+
+
+      //Finder shelter ID og navn baseret på valgte shelter
+    public async Task vælgShelter(ChangeEventArgs e)
+    {
+        String shelterId = e.Value.ToString();
+
+        Console.WriteLine(shelterId);
+
+        await GetShelterIdNavn(shelterId);
+    } 
+
+    //Get-funktion til at hente shelterID og navn i controlleren
+    protected async Task<Shelter> GetShelterIdNavn(string shelterId)
+    {
+        return valgteShelter = await Http.GetFromJsonAsync<Shelter>("ShelterDB/idnavn");
+
+    }
+
+
+
+    //Post-funktion til at oprette en booking
     protected async Task SendData()
     {
         Booking nyBooking = new Booking();
@@ -64,7 +122,7 @@
         nyBooking.start_dato = start_dato.AddDays(1);
 
         nyUdlejet_Shelter.shelter_id = "hehfewhfewf";
-        nyUdlejet_Shelter.shelter_navn = "Abis Hytte med mælk";
+        nyUdlejet_Shelter.shelter_navn = "hehfewhfewf";
 
         nyBooking.bruger = nyBruger;
         nyBooking.udlejet_shelter = nyUdlejet_Shelter;
@@ -73,11 +131,4 @@
 
         await Http.PostAsJsonAsync<Booking>("BookingsDB", nyBooking);
     }
-
-
-
-
-
-
-
 }

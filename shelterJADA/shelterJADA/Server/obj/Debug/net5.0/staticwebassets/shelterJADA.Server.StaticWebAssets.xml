@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/" />
-  <ContentRoot BasePath="/" Path="/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/scopedcss/bundle/" />
-  <ContentRoot BasePath="/" Path="/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/wwwroot/" />
+  <ContentRoot BasePath="/" Path="C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\wwwroot\" />
 </StaticWebAssets>
