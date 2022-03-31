@@ -115,7 +115,7 @@ using shelterJADA.Shared;
 
     protected override async Task OnInitializedAsync()
     {
-        ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB");
+        ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/all");
 
     }
 

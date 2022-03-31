@@ -97,6 +97,67 @@ using shelterJADA.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 30 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/OpretBooking.razor"
+       
+    private string fornavn, efternavn, email, telefon;
+    private DateTime start_dato = DateTime.Now;
+    private DateTime slut_dato = DateTime.Now.AddDays(1);
+
+    public List<Shelter> ShelterListe;
+    public List<string> AntalKommuner = new List<string>();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        AntalKommuner = await Http.GetFromJsonAsync<List<string>>("ShelterDB/kommune");
+
+        
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 43 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/OpretBooking.razor"
+                                                                                                
+
+    }
+
+    protected async Task SendData()
+    {
+        Booking nyBooking = new Booking();
+        Bruger nyBruger = new Bruger();
+        Udlejet_Shelter nyUdlejet_Shelter = new Udlejet_Shelter();
+
+        nyBruger.fornavn = fornavn;
+        nyBruger.efternavn = efternavn;
+        nyBruger.email = email;
+        nyBruger.telefon = telefon;
+
+        nyBooking.slut_dato = slut_dato.AddDays(1);
+        nyBooking.start_dato = start_dato.AddDays(1);
+
+        nyUdlejet_Shelter.shelter_id = "hehfewhfewf";
+        nyUdlejet_Shelter.shelter_navn = "Abis Hytte med mælk";
+
+        nyBooking.bruger = nyBruger;
+        nyBooking.udlejet_shelter = nyUdlejet_Shelter;
+
+
+
+        await Http.PostAsJsonAsync<Booking>("BookingsDB", nyBooking);
+    }
+
+
+
+
+
+
+
+
+#line default
+#line hidden
+#nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }

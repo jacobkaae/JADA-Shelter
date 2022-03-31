@@ -1,27 +1,30 @@
 ﻿using System;
+using MongoDB.Bson.Serialization.Attributes;
+
 namespace shelterJADA.Shared
 {
     public class Booking
     {
+       [BsonId]
         public string Id { get; set; }
-        public Udlejet_Shelter Udlejet_Shelter { get; set; }
-        public Bruger Bruger { get; set; }
-        public DateTime Start_Dato { get; set; }
-        public DateTime Slut_Dato { get; set; }
+        public Udlejet_Shelter udlejet_shelter { get; set; }
+        public Bruger bruger { get; set; }
+        public DateTime start_dato { get; set; }
+        public DateTime slut_dato { get; set; }
     }
 
     public class Udlejet_Shelter
     {
-        public string Shelter_Navn { get; set; }
-        public string Shelter_Id { get; set; }
+        public string shelter_navn { get; set; }
+        public string shelter_id { get; set; }
     }
 
     public class Bruger
     {
-        public string Fornavn { get; set; }
-        public string Efternavn { get; set; }
-        public string Email { get; set; }
-        public string Telefon { get; set; }
+        public string fornavn { get; set; }
+        public string efternavn { get; set; }
+        public string email { get; set; }
+        public string telefon { get; set; }
     }
 
 }

@@ -4,7 +4,7 @@
 
 <h1>ShelterData</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
+<p>This component demonstrates fetching data from the server.t</p>
 
 @if (ShelterListe == null)
 {
@@ -21,7 +21,7 @@ else
                 <th>Shelternavn</th>
                 <th>Antal pladser</th>
                 <th>K-beskrivelse</th>
-                <th>L-beskrivelse</th>
+                
             </tr>
         </thead>
         <tbody>
@@ -36,7 +36,7 @@ else
                 <td>@shelter.Properties.Navn</td>
                 <td>@shelter.Properties.Antal_pl</td>
                 <td>@shelter.Properties.Beskrivels</td>
-                <td>@shelter.Properties.Lang_beskr</td>
+               
             </tr>
             }
         </tbody>
@@ -54,7 +54,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB");
+        ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/all");
 
     }
 

@@ -1,39 +1,53 @@
 ﻿<Properties StartupConfiguration="{0F4B198E-6FC9-465D-9E4F-B62D0B9C4CDB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterJADA/Client/Pages/OpretBooking.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterJADA/Server/appsettings.json">
     <Files>
       <File FileName="shelterJADA/Server/Shelters.json" Line="18" Column="18" />
-      <File FileName="shelterJADA/Client/Pages/ShelterData.razor" Line="7" Column="62" />
+      <File FileName="shelterJADA/Client/Pages/ShelterData.razor" Line="57" Column="81" />
       <File FileName="shelterJADA/Client/Shared/NavMenu.razor" />
       <File FileName="shelterJADA/Server/Controllers/WeatherForecastController.cs" />
-      <File FileName="shelterJADA/Server/Controllers/ShelterController.cs" />
+      <File FileName="shelterJADA/Server/Controllers/ShelterController.cs" Line="32" Column="11" />
       <File FileName="shelterJADA/Shared/WeatherForecast.cs" />
       <File FileName="shelterJADA/Client/Program.cs" />
       <File FileName="shelterJADA/Server/Program.cs" />
-      <File FileName="shelterJADA/Server/Controllers/ShelterDBController.cs" />
-      <File FileName="shelterJADA/Shared/Shelter.cs" />
-      <File FileName="shelterJADA/Client/Pages/OpretBooking.razor" Line="1" Column="21" />
-      <File FileName="shelterJADA/Client/Pages/Bookings.razor" Line="48" Column="1" />
-      <File FileName="shelterJADA/Shared/Booking.cs" />
-      <File FileName="shelterJADA/Server/Controllers/BookingsDBController.cs" Line="38" Column="54" />
+      <File FileName="shelterJADA/Server/Controllers/ShelterDBController.cs" Line="42" Column="1" />
+      <File FileName="shelterJADA/Shared/Shelter.cs" Line="28" Column="1" />
+      <File FileName="shelterJADA/Client/Pages/OpretBooking.razor" Line="64" Column="37" />
+      <File FileName="shelterJADA/Client/Pages/Bookings.razor" Line="8" Column="18" />
+      <File FileName="shelterJADA/Shared/Booking.cs" Line="12" Column="21" />
+      <File FileName="shelterJADA/Server/Controllers/BookingsDBController.cs" Line="63" Column="29" />
       <File FileName="shelterJADA/Client/Pages/FetchData.razor" Line="18" Column="16" />
       <File FileName="shelterJADA/Client/Pages/Index.razor" Line="1" Column="1" />
+      <File FileName="shelterJADA/Client/Pages/Counter.razor" Line="1" Column="1" />
+      <File FileName="shelterJADA/Server/Startup.cs" Line="1" Column="1" />
+      <File FileName="shelterJADA/Server/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="shelterJADA" expanded="True">
             <Node name="shelterJADA.Client" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="OpretBooking.razor" selected="True" />
-              </Node>
+              <Node name="Pages" expanded="True" />
               <Node name="Shared" expanded="True" />
             </Node>
             <Node name="shelterJADA.Server" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Pages" expanded="True" />
+              <Node name="appsettings.json" expanded="True" selected="True" />
             </Node>
             <Node name="shelterJADA.Shared" expanded="True" />
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>listb</Value>
+          <Value>bruger.Fornavn</Value>
+          <Value>shelter.Shelter_Navn</Value>
+          <Value>bruger.Email</Value>
+          <Value>nyBokking.Start_Dato</Value>
+          <Value>nyBokking.Start_Dato</Value>
+          <Value>bookings</Value>
+          <Value>AntalKommuner</Value>
         </State>
       </Pad>
     </Pads>
@@ -42,7 +56,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/OpretBooking.razor" relfile="shelterJADA/Client/Pages/OpretBooking.razor" line="43" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

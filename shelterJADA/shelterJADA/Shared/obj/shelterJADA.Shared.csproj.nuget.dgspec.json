@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.15.0, )"

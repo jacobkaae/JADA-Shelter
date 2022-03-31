@@ -27,7 +27,7 @@ namespace shelterJADA.Server.Controllers
         }
 
         // Logik til at hente data ned fra .json dokument (ligger lokalt på server)
-        [HttpGet()]
+        [HttpGet("all")]
         public async Task<IEnumerable<Shelter>> GetAsync()
         {
             try
@@ -87,6 +87,48 @@ namespace shelterJADA.Server.Controllers
 
 
         }
+
+        // Logik til at hente data ned fra .json dokument (ligger lokalt på server)
+        [HttpGet("kommune")]
+        public async Task<IEnumerable<string>> GetKommune()
+        {
+            try
+            {
+                var client = new MongoClient("mongodb+srv://admin:cLQhpvD7G3wzvegG@cluster0.gyuyl.mongodb.net/Shelter?retryWrites=true&w=majority");
+
+                var database = client.GetDatabase("Shelter");
+
+                var collection = database.GetCollection<BsonDocument>("Shelters");
+
+                var filter = new BsonDocument();
+
+                var list = await collection.DistinctAsync<string>("cvr_navn", filter);
+
+               
+                return (IEnumerable<string>)list;
+                
+
+
+            }
+            catch (HttpRequestException) // Non success
+            {
+                Console.WriteLine("An error occurred.");
+            }
+            catch (NotSupportedException) // When content type is not valid
+            {
+                Console.WriteLine("The content type is not supported.");
+            }
+            catch (Newtonsoft.Json.JsonException) // Invalid JSON
+            {
+                Console.WriteLine("Invalid JSON.");
+            }
+
+            return null;
+
+
+
+        }
+
 
 
 

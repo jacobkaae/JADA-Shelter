@@ -35,6 +35,8 @@ namespace shelterJADA.Server.Controllers
 
             var collection = database.GetCollection<Booking>("Booking");
 
+            nyBooking.Id = ObjectId.GenerateNewId().ToString();
+
             await collection.InsertOneAsync(nyBooking);
         }
 
@@ -61,20 +63,20 @@ namespace shelterJADA.Server.Controllers
                     Bruger bruger = new Bruger();
                     Udlejet_Shelter shelter = new Udlejet_Shelter();
 
-                    bruger.Fornavn = item["bruger"]["fornavn"].ToString();
-                    bruger.Efternavn = item["bruger"]["efternavn"].ToString();
-                    bruger.Email = item["bruger"]["email"].ToString();
-                    bruger.Telefon = item["bruger"]["telefon"].ToString();
+                    bruger.fornavn = item["bruger"]["fornavn"].ToString();
+                    bruger.efternavn = item["bruger"]["efternavn"].ToString();
+                    bruger.email = item["bruger"]["email"].ToString();
+                    bruger.telefon = item["bruger"]["telefon"].ToString();
 
-                    shelter.Shelter_Navn = item["udlejet_shelter"]["shelter_navn"].ToString();
-                    shelter.Shelter_Id = item["udlejet_shelter"]["shelter_id"].ToString();
+                    shelter.shelter_navn = item["udlejet_shelter"]["shelter_navn"].ToString();
+                    shelter.shelter_id = item["udlejet_shelter"]["shelter_id"].ToString();
 
-                    nyBokking.Start_Dato = ((DateTime)item["start_dato"]);
-                    nyBokking.Slut_Dato = ((DateTime)item["slut_dato"]);
+                    nyBokking.start_dato = ((DateTime)item["start_dato"]);
+                    nyBokking.slut_dato = ((DateTime)item["slut_dato"]);
 
                     nyBokking.Id = item["_id"].ToString();
-                    nyBokking.Bruger = bruger;
-                    nyBokking.Udlejet_Shelter = shelter;
+                    nyBokking.bruger = bruger;
+                    nyBokking.udlejet_shelter = shelter;
 
                     bookings.Add(nyBokking);
 
@@ -98,8 +100,6 @@ namespace shelterJADA.Server.Controllers
             }
 
             return null;
-
-
 
         }
 

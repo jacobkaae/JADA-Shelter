@@ -8,6 +8,7 @@
   "resources": {
     "assembly": {
       "DnsClient.dll": "sha256-XFrb8OLREZnPfwKYGkJqqnN6zBL81E3\/fFPZfbZI0Ns=",
+      "System.Net.Http.Formatting.dll": "sha256-7zKFggP3JjqldnuuTpRWf6Gzze3iFLqHYDAJwcF7Jk8=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-vQofHolgX54IVKnEIiqW1yzn9EMTRytYdwcyZ6s7P4A=",
       "Microsoft.AspNetCore.Components.dll": "sha256-\/eLsqWcEOPASfNXA\/1N+Vtl66yk4EywPo3QtyzauK2M=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-NnEOSagUjZ6lz83IOD8XYyG8avBCM3WF21JGn1ASnKk=",
@@ -35,6 +36,7 @@
       "MongoDB.Driver.Core.dll": "sha256-BoORO9LMclY90IVNDyJzLTX1DvLyPay2mGZATipgNCo=",
       "MongoDB.Libmongocrypt.dll": "sha256-TaK3VRk+NmCEevU0XWGzE\/ID1QBZ5uXyy2DtD6WL54Q=",
       "Newtonsoft.Json.dll": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
+      "Newtonsoft.Json.Bson.dll": "sha256-tgbl3XemJCyh8d9xfrU9lQWuVpBDMLl1wI1PLb6MMxk=",
       "SharpCompress.dll": "sha256-g6OkB2E3tHVhjYz074TwY\/qKeHk14HgEWYjivSizy68=",
       "System.IO.Pipelines.dll": "sha256-\/C5xhI+m3Aqrcjxy\/TauLyqv\/\/5l8WEW3rXFtVlNhy8=",
       "Microsoft.CSharp.dll": "sha256-WU\/XmUn6LEK2VOOdyAtkC6Vh2R9Adh+wIl16y74XXBc=",
@@ -202,12 +204,12 @@
       "mscorlib.dll": "sha256-CbcIR45\/xUFaZJqGIle6bb7v2kWYjp4kOFpKNnCkd4I=",
       "netstandard.dll": "sha256-qE0Q70OyVlHYY\/Y3nwMjfh+zissea9uhfvWMvPWfI7w=",
       "System.Private.CoreLib.dll": "sha256-pdkcl2+OojCfrhxX5eFmKI30wAmhL6s+sCLp7s175k0=",
-      "shelterJADA.Shared.dll": "sha256-oC3Brz3ZOwzXQ\/fzFZz4PMWyz+p37OckXWBS1\/vlYiE=",
-      "shelterJADA.Client.dll": "sha256-624laqbdt8zlsOcgJohPmO90lxOB5sQpz+wHS\/tUekM="
+      "shelterJADA.Shared.dll": "sha256-mZljPlrdSKdBCuK7xhPl8lXk6EJZWrI88TO5+aph+Is=",
+      "shelterJADA.Client.dll": "sha256-n5ydHjF9b01UR0B9d1zL+xshmzbQMux\/+GZR4CPSZEI="
     },
     "lazyAssembly": null,
     "pdb": {
-      "shelterJADA.Client.pdb": "sha256-Zgwu2wsZg9vbnccN1ppxiOSWFnU6rJfNFN3\/gXKpr3s="
+      "shelterJADA.Client.pdb": "sha256-yxaiMHUwdzxbUHXZ9sUvm6rEFb+5EnJyXiTAsDEf3BI="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-ootDKSA6cNAbgJLmPhrHsPVvVqkGEYdRZxucC22LWjw=",

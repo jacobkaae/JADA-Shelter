@@ -9,6 +9,7 @@
     <PackageReference Include="MongoDB.Bson" Version="2.15.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="MongoDB.Driver" Version="2.15.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,5 +23,7 @@
     <None Remove="Newtonsoft.Json" />
     <None Remove="MongoDB.Driver" />
     <None Remove="MongoDB.Driver.Core" />
+    <None Remove="Microsoft.AspNet.WebApi.Client" />
+    <None Remove="System.Net.Http.Formatting.Extension" />
   </ItemGroup>
 </Project>

@@ -9,6 +9,7 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/shelterJADA.Client.pdb
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/blazor.webassembly.js
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/DnsClient.dll.gz
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/System.Net.Http.Formatting.dll.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll.gz
@@ -36,6 +37,7 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Driver.Core.dll.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Libmongocrypt.dll.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Newtonsoft.Json.dll.gz
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Newtonsoft.Json.Bson.dll.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/SharpCompress.dll.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/System.IO.Pipelines.dll.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.CSharp.dll.gz
@@ -212,6 +214,7 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/dotnet.5.0.15.js.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/shelterJADA.Shared.dll.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/DnsClient.dll
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/System.Net.Http.Formatting.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll
@@ -239,6 +242,7 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Driver.Core.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Libmongocrypt.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Newtonsoft.Json.dll
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Newtonsoft.Json.Bson.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/SharpCompress.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/System.IO.Pipelines.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.CSharp.dll
@@ -450,6 +454,7 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/APekiZBk.gz
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/SB7hIGTA.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/Jo3+NOkT.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/N1mspKvT.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/vCvnkrKl.gz
@@ -477,6 +482,7 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/WLfpUq+Y.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/bK3BlgaB.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/9FaZy36r.gz
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/ydsbnpid.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/IH2PEfMe.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/FvvMZWBN.gz
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/obj/Debug/net5.0/build-gz/OGkCW+HB.gz

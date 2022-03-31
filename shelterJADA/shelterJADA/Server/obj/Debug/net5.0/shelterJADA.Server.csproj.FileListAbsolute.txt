@@ -21,6 +21,7 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/shelterJADA.Server.Views.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/shelterJADA.Server.Views.pdb
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/DnsClient.dll
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/System.Net.Http.Formatting.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Authorization.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Forms.dll
@@ -36,6 +37,7 @@
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/MongoDB.Driver.Core.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/MongoDB.Libmongocrypt.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/SharpCompress.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/System.IO.Pipelines.dll
 /Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/bin/Debug/net5.0/runtimes/linux/native/libsnappy64.so
