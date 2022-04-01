@@ -54,7 +54,7 @@
           "lib/net5.0/Microsoft.AspNetCore.Components.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/5.0.15": {
+      "Microsoft.AspNetCore.Components.Analyzers/6.0.3": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
@@ -1738,6 +1738,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": "5.2.7",
+          "Microsoft.AspNetCore.Components.Analyzers": "6.0.3",
           "Microsoft.AspNetCore.Components.WebAssembly": "5.0.15",
           "MongoDB.Bson": "2.15.0",
           "MongoDB.Driver": "2.15.0",
@@ -1757,6 +1758,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": "5.2.7",
+          "Microsoft.AspNetCore.Components.Analyzers": "6.0.3",
           "MongoDB.Bson": "2.15.0",
           "MongoDB.Driver": "2.15.0",
           "Newtonsoft.Json": "13.0.1"
@@ -1846,10 +1848,10 @@
         "microsoft.aspnetcore.components.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Analyzers/5.0.15": {
-      "sha512": "5BEiJFBmMCj8EOxOH/IwHmeZuqkbutgy9W/JcSLfhqmHDpanvnVZK9H7BbkNxrPt14Ry0re5PcJ7puGsqJmylA==",
+    "Microsoft.AspNetCore.Components.Analyzers/6.0.3": {
+      "sha512": "zM6GIzF9bAnjVhiXNFQ2viF7W9FPASHjiDmV53M+ArRKBS8LFvzTfC4sgGYDoaikxm+zdx9mH7x98I1Dh3/INQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.analyzers/5.0.15",
+      "path": "microsoft.aspnetcore.components.analyzers/6.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1858,7 +1860,7 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
         "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
-        "microsoft.aspnetcore.components.analyzers.5.0.15.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.6.0.3.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
       ]
     },
@@ -5987,6 +5989,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.AspNet.WebApi.Client >= 5.2.7",
+      "Microsoft.AspNetCore.Components.Analyzers >= 6.0.3",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.15",
       "MongoDB.Bson >= 2.15.0",
       "MongoDB.Driver >= 2.15.0",
@@ -5996,37 +5999,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jacob\\.nuget\\packages\\": {}
+    "/Users/jacobkaae/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Server\\shelterJADA.Server.csproj",
+      "projectUniqueName": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/shelterJADA.Server.csproj",
       "projectName": "shelterJADA.Server",
-      "projectPath": "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Server\\shelterJADA.Server.csproj",
-      "packagesPath": "C:\\Users\\Jacob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Server\\obj\\",
+      "projectPath": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/shelterJADA.Server.csproj",
+      "packagesPath": "/Users/jacobkaae/.nuget/packages/",
+      "outputPath": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/jacobkaae/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Client\\shelterJADA.Client.csproj": {
-              "projectPath": "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Client\\shelterJADA.Client.csproj"
+            "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/shelterJADA.Client.csproj": {
+              "projectPath": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/shelterJADA.Client.csproj"
             },
-            "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj": {
-              "projectPath": "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj"
+            "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/shelterJADA.Shared.csproj": {
+              "projectPath": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/shelterJADA.Shared.csproj"
             }
           }
         }
@@ -6044,6 +6045,10 @@
           "Microsoft.AspNet.WebApi.Client": {
             "target": "Package",
             "version": "[5.2.7, )"
+          },
+          "Microsoft.AspNetCore.Components.Analyzers": {
+            "target": "Package",
+            "version": "[6.0.3, )"
           },
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
@@ -6080,7 +6085,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
       }
     }
   }

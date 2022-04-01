@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj": {}
+    "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/shelterJADA.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj": {
+    "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/shelterJADA.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj",
+        "projectUniqueName": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/shelterJADA.Shared.csproj",
         "projectName": "shelterJADA.Shared",
-        "projectPath": "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj",
-        "packagesPath": "C:\\Users\\Jacob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jacob\\Desktop\\Shelter\\shelterJADA\\shelterJADA\\Shared\\obj\\",
+        "projectPath": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/shelterJADA.Shared.csproj",
+        "packagesPath": "/Users/jacobkaae/.nuget/packages/",
+        "outputPath": "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jacobkaae/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +41,10 @@
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Components.Analyzers": {
+              "target": "Package",
+              "version": "[6.0.3, )"
             },
             "MongoDB.Bson": {
               "target": "Package",
@@ -72,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
         }
       }
     }

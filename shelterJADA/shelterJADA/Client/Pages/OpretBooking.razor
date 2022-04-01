@@ -73,6 +73,7 @@
     public async Task vælgKommune(ChangeEventArgs e)
     {
         valgtKommune = e.Value.ToString();
+
         Console.WriteLine(valgtKommune);
 
         await GetKommuneSheltere(valgtKommune);
@@ -81,7 +82,7 @@
     //Get-funktion til at hente sheltere i controlleren
     protected async Task<List<Shelter>> GetKommuneSheltere(string kommunenavn)
     {
-        return KommuneSheltere = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/kommune");
+        return KommuneSheltere = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/kommune?kommunenavn="+kommunenavn);
 
     }
 
@@ -100,7 +101,7 @@
     //Get-funktion til at hente shelterID og navn i controlleren
     protected async Task<Shelter> GetShelterIdNavn(string shelterId)
     {
-        return valgteShelter = await Http.GetFromJsonAsync<Shelter>("ShelterDB/idnavn");
+        return valgteShelter = await Http.GetFromJsonAsync<Shelter>("ShelterDB/idnavn?shelterId="+shelterId);
 
     }
 
@@ -121,8 +122,8 @@
         nyBooking.slut_dato = slut_dato.AddDays(1);
         nyBooking.start_dato = start_dato.AddDays(1);
 
-        nyUdlejet_Shelter.shelter_id = "hehfewhfewf";
-        nyUdlejet_Shelter.shelter_navn = "hehfewhfewf";
+        nyUdlejet_Shelter.shelter_id = valgteShelter.Id.ToString();
+        nyUdlejet_Shelter.shelter_navn = valgteShelter.Properties.Navn.ToString();
 
         nyBooking.bruger = nyBruger;
         nyBooking.udlejet_shelter = nyUdlejet_Shelter;

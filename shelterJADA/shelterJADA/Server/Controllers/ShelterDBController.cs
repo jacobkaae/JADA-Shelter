@@ -93,12 +93,14 @@ namespace shelterJADA.Server.Controllers
 
                 var collection = database.GetCollection<BsonDocument>("Shelters");
 
-                var list = await collection.Find(_ => true).ToListAsync();
+                var list  = await collection.Find(_ => true).ToListAsync();
 
                 List<Shelter> kommuneShelters = new List<Shelter>();
 
                 foreach (var item in list)
                 {
+                    if (item["properties"]["cvr_navn"].ToString() == kommunenavn)
+                    {
                         Shelter shelter = new Shelter();
 
                         Properties opsætning = new Properties();
@@ -115,7 +117,8 @@ namespace shelterJADA.Server.Controllers
                         shelter.Properties = opsætning;
 
                         kommuneShelters.Add(shelter);
-
+                    }
+                   
                 }
                 return kommuneShelters;
             }
@@ -141,8 +144,6 @@ namespace shelterJADA.Server.Controllers
         {
             try
             {
-                string test = shelterId;
-
                 var client = new MongoClient("mongodb+srv://admin:cLQhpvD7G3wzvegG@cluster0.gyuyl.mongodb.net/Shelter?retryWrites=true&w=majority");
 
                 var database = client.GetDatabase("Shelter");
@@ -155,24 +156,27 @@ namespace shelterJADA.Server.Controllers
                 {
                     if (item["_id"].ToString() == shelterId)
                     {
+                        Shelter shelter = new Shelter();
+
+                        Properties opsætning = new Properties();
+
+                        opsætning.Cvr_navn = item["properties"]["cvr_navn"].ToString();
+                        opsætning.Kommunekode = item["properties"]["kommunekode"].ToInt32();
+                        opsætning.Facil_ty = item["properties"]["facil_ty"].ToString();
+                        opsætning.Navn = item["properties"]["navn"].ToString();
+                        opsætning.Beskrivels = item["properties"]["beskrivels"].ToString();
+                        opsætning.Lang_beskr = item["properties"]["lang_beskr"].ToString();
+                        opsætning.Antal_pl = item["properties"]["antal_pl"].ToInt32();
+
+                        shelter.Id = item["_id"].ToString();
+                        shelter.Properties = opsætning;
+
+                        return shelter;
 
                     }
-                    Shelter shelter = new Shelter();
 
-                    Properties opsætning = new Properties();
 
-                    opsætning.Cvr_navn = item["properties"]["cvr_navn"].ToString();
-                    opsætning.Kommunekode = item["properties"]["kommunekode"].ToInt32();
-                    opsætning.Facil_ty = item["properties"]["facil_ty"].ToString();
-                    opsætning.Navn = item["properties"]["navn"].ToString();
-                    opsætning.Beskrivels = item["properties"]["beskrivels"].ToString();
-                    opsætning.Lang_beskr = item["properties"]["lang_beskr"].ToString();
-                    opsætning.Antal_pl = item["properties"]["antal_pl"].ToInt32();
 
-                    shelter.Id = item["_id"].ToString();
-                    shelter.Properties = opsætning;
-
-                    return shelter;
                 }
                 
             }

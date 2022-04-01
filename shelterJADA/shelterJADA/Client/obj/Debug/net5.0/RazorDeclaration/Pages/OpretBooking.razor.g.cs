@@ -13,77 +13,77 @@ namespace shelterJADA.Client.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 1 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 2 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 3 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 4 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 5 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 6 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 7 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 8 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 9 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/_Imports.razor"
 using shelterJADA.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 10 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/_Imports.razor"
 using shelterJADA.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\Pages\OpretBooking.razor"
+#line 2 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/OpretBooking.razor"
 using shelterJADA.Shared;
 
 #line default
@@ -98,20 +98,20 @@ using shelterJADA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 45 "C:\Users\Jacob\Desktop\Shelter\shelterJADA\shelterJADA\Client\Pages\OpretBooking.razor"
+#line 51 "/Users/jacobkaae/Desktop/JADA-Shelter/shelterJADA/shelterJADA/Client/Pages/OpretBooking.razor"
        
     private string fornavn, efternavn, email, telefon, valgtKommune;
-    
-    private Shelter valgteShelter = new Shelter();
 
     private DateTime start_dato = DateTime.Now;
     private DateTime slut_dato = DateTime.Now.AddDays(1);
 
-
+    public Shelter valgteShelter = new Shelter();
     public List<Shelter> ShelterListe;
     public List<string> AntalKommuner = new List<string>();
     public List<Shelter> KommuneSheltere;
     
+
+
     protected override async Task OnInitializedAsync()
     {
         ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/all");
@@ -124,6 +124,7 @@ using shelterJADA.Shared;
     public async Task vælgKommune(ChangeEventArgs e)
     {
         valgtKommune = e.Value.ToString();
+
         Console.WriteLine(valgtKommune);
 
         await GetKommuneSheltere(valgtKommune);
@@ -132,10 +133,9 @@ using shelterJADA.Shared;
     //Get-funktion til at hente sheltere i controlleren
     protected async Task<List<Shelter>> GetKommuneSheltere(string kommunenavn)
     {
-        return KommuneSheltere = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/kommune");
+        return KommuneSheltere = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/kommune?kommunenavn="+kommunenavn);
 
     }
-
 
 
 
@@ -152,7 +152,7 @@ using shelterJADA.Shared;
     //Get-funktion til at hente shelterID og navn i controlleren
     protected async Task<Shelter> GetShelterIdNavn(string shelterId)
     {
-        return valgteShelter = await Http.GetFromJsonAsync<Shelter>("ShelterDB/idnavn");
+        return valgteShelter = await Http.GetFromJsonAsync<Shelter>("ShelterDB/idnavn?shelterId="+shelterId);
 
     }
 
@@ -173,8 +173,8 @@ using shelterJADA.Shared;
         nyBooking.slut_dato = slut_dato.AddDays(1);
         nyBooking.start_dato = start_dato.AddDays(1);
 
-        nyUdlejet_Shelter.shelter_id = "hehfewhfewf";
-        nyUdlejet_Shelter.shelter_navn = "hehfewhfewf";
+        nyUdlejet_Shelter.shelter_id = valgteShelter.Id.ToString();
+        nyUdlejet_Shelter.shelter_navn = valgteShelter.Properties.Navn.ToString();
 
         nyBooking.bruger = nyBruger;
         nyBooking.udlejet_shelter = nyUdlejet_Shelter;
