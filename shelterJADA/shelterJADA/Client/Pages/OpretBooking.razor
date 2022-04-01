@@ -4,30 +4,6 @@
 
 <h1>Opret en booking!</h1>
 
-<input placeholder="Fornavn" @bind="fornavn" />
-<input placeholder="Efternavn" @bind="efternavn" />
-<input placeholder="Email" @bind="email" />
-<input placeholder="Telefon" @bind="telefon" />
-
-<input type="date" @bind="start_dato" />
-<input type="date" @bind="slut_dato" />
-
-
-
-@if (AntalKommuner != null)
-{
-<select @onchange="vælgKommune">
-    <option selected>Vælg Kommune</option>
-    @foreach (var item in AntalKommuner)
-    {
-        <option value=@item>@item</option>
-    }
-</select>
-}
-
-
-
-
 <select @onchange="vælgShelter">
     <option selected>Vælg Shelter</option>
     @if (KommuneSheltere != null)
@@ -42,11 +18,97 @@
 
 
 
-<input type="button" @onclick="SendData" value="Book Shelter" />
-<br />
+@*BOOTSTRAP!*@
+
+
+<div class="table table-striped">
+    <thead>
+        @if (KommuneSheltere != null)
+        {
+        <tr class="table-dark">
+            <th>Shelter</th>
+            <th>Antal Pladser</th>
+            <th>Beskrivelse</th>
+        </tr>
+        }
+    </thead>
+    <tbody>
+        @if (KommuneSheltere != null)
+        {
+            @foreach (var item in KommuneSheltere)
+            {
+            <tr>
+                <td>@item.Properties.Navn</td>
+                <td>@item.Properties.Antal_pl</td>
+                <td>@item.Properties.Beskrivels</td>
+            </tr>               
+            }
+        }
+    </tbody>
+</div>
 
 
 
+<form class="row g-3">
+<div class="container_brugerInput">
+
+    <div class="form-floating">
+      <select  @onchange="vælgKommune" class="form-select" id="floatingSelect">
+        <option selected>Liste over kommuner</option>
+        @foreach (var item in AntalKommuner)
+        {
+            <option value=@item>@item</option>
+        }
+      </select>
+      <label for="floatingSelect">Shelters i</label>
+    </div>
+
+    
+    <div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingFornavn" @bind="fornavn" aria-label="First name">
+            <label for="floatingFornavn">Fornavn</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingEfternavn" @bind="efternavn" aria-label="Last name">
+            <label for="floatingEfternavn">Efternavn</label>
+        </div>
+    </div>
+
+
+    <div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" @bind="email">
+          <label for="floatingInput">Email</label>
+        </div>
+    </div>
+
+    <div>
+        <div class="form-floating mb-3">
+          <input type="tel" class="form-control" id="floatingTelefon" @bind="telefon">
+          <label for="floatingTelefon">Telefon</label>
+        </div>
+    </div>
+
+    <div class="row g-2">
+        <div class="col-md">
+            <div class="form-floating mb-3">
+              <input type="date" class="form-control" id="floatingStart" @bind="start_dato">
+              <label for="floatingStart">Start dato</label>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="form-floating mb-3">
+              <input type="date" class="form-control" id="floatingSlut" @bind="slut_dato">
+              <label for="floatingSlut">Slut dato</label>
+            </div>
+        </div>
+    </div>
+
+    <input class="btn btn-success" type="button" @onclick="SendData" value="Book Shelter" />
+
+</div>
+</form>
 
 @code {
     private string fornavn, efternavn, email, telefon, valgtKommune;
