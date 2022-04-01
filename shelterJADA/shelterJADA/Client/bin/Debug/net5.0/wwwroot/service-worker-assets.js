@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-DuxISqDQEDYS1JJWyhLtq4mEcazS4Nl0I7kL9RU2Wuo=",
+      "hash": "sha256-2QwhPlOfdbDxrpOvRj1LrNKtkfuqnueFqGX6sfvND6o=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -821,19 +821,19 @@
       "url": "_framework\/dotnet.5.0.15.js"
     },
     {
-      "hash": "sha256-X3mzuQX9xKjLUmR3EgDq2S+7gvkdOn3BnoSshE1NK2U=",
+      "hash": "sha256-zIQJGGpyCkGUePioLE9ymuIKGlx+Wif5MYwbNkzLits=",
       "url": "_framework\/shelterJADA.Shared.dll"
     },
     {
-      "hash": "sha256-Gj1tydVjX97e5dKnTUEi6fk0MNaVFMa5Ip83sPnmpZA=",
+      "hash": "sha256-vnDiBejPCpZUHxjanHe47DMAAdphlJOuEHsjk8SB0Mc=",
       "url": "_framework\/shelterJADA.Shared.pdb"
     },
     {
-      "hash": "sha256-CovUKbGiuhESUQI07Yj1z+VpAoJwhDpVnTPXr+DBia0=",
+      "hash": "sha256-Md2IdLxJKCT6vPQj6KDIEOKaa\/JjvlOOLLqNXgRDrNk=",
       "url": "_framework\/shelterJADA.Client.dll"
     },
     {
-      "hash": "sha256-abfznkBhoTdsr9mpYkWJ30YU9Uoi7hFrwuaqr2fY\/Fc=",
+      "hash": "sha256-QL973CE5tM+TsP4nwiTO4JdmI4COzWbWGooI\/2nKt2w=",
       "url": "_framework\/shelterJADA.Client.pdb"
     },
     {
@@ -1657,7 +1657,7 @@
       "url": "_framework\/dotnet.5.0.15.js.gz"
     },
     {
-      "hash": "sha256-ziIi9TFLLv9bqi1eydUV\/uQiOwO3dN+6sYemgcAzZFA=",
+      "hash": "sha256-SNCcvhQu1Cg6bq74k2IvCAGLgfd+8I7CgRTrAzxw5mc=",
       "url": "_framework\/shelterJADA.Shared.dll.gz"
     },
     {
@@ -1733,5 +1733,5 @@
       "url": "shelterJADA.Client.bundle.scp.css"
     }
   ],
-  "version": "5KEF\/vtW"
+  "version": "Kp9KSHFr"
 };

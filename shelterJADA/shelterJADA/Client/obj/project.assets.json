@@ -8133,19 +8133,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lynge\\.nuget\\packages\\": {}
+    "C:\\Users\\Anders\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lynge\\Desktop\\JADA-Shelter\\shelterJADA\\shelterJADA\\Client\\shelterJADA.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Anders\\Desktop\\JADA-Shelter\\shelterJADA\\shelterJADA\\Client\\shelterJADA.Client.csproj",
       "projectName": "shelterJADA.Client",
-      "projectPath": "C:\\Users\\lynge\\Desktop\\JADA-Shelter\\shelterJADA\\shelterJADA\\Client\\shelterJADA.Client.csproj",
-      "packagesPath": "C:\\Users\\lynge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lynge\\Desktop\\JADA-Shelter\\shelterJADA\\shelterJADA\\Client\\obj\\",
+      "projectPath": "C:\\Users\\Anders\\Desktop\\JADA-Shelter\\shelterJADA\\shelterJADA\\Client\\shelterJADA.Client.csproj",
+      "packagesPath": "C:\\Users\\Anders\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anders\\Desktop\\JADA-Shelter\\shelterJADA\\shelterJADA\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lynge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anders\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8159,8 +8159,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\lynge\\Desktop\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj": {
-              "projectPath": "C:\\Users\\lynge\\Desktop\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj"
+            "C:\\Users\\Anders\\Desktop\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj": {
+              "projectPath": "C:\\Users\\Anders\\Desktop\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj"
             }
           }
         }
