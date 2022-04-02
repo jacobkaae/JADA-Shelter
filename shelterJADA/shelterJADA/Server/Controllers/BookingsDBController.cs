@@ -26,7 +26,7 @@ namespace shelterJADA.Server.Controllers
             this.logger = logger;
         }
 
-        [HttpPost()]
+        [HttpPost("opret")]
         public async Task AddBooking(Booking nyBooking)
         {
             var client = new MongoClient("mongodb+srv://admin:cLQhpvD7G3wzvegG@cluster0.gyuyl.mongodb.net/Shelter?retryWrites=true&w=majority");
@@ -38,6 +38,20 @@ namespace shelterJADA.Server.Controllers
             nyBooking.Id = ObjectId.GenerateNewId().ToString();
 
             await collection.InsertOneAsync(nyBooking);
+        }
+
+        [HttpPost("slet")]
+        public async Task DeleteBooking(Booking booking)
+        {
+            var client = new MongoClient("mongodb+srv://admin:cLQhpvD7G3wzvegG@cluster0.gyuyl.mongodb.net/Shelter?retryWrites=true&w=majority");
+
+            var database = client.GetDatabase("Shelter");
+
+            var collection = database.GetCollection<BsonDocument>("Booking");
+
+            var deleteFilter = Builders<BsonDocument>.Filter.Eq("_id", booking.Id);
+
+            await collection.DeleteOneAsync(deleteFilter);
         }
 
         // Logik til at hente data ned fra .json dokument (ligger lokalt på server)

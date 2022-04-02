@@ -13,77 +13,77 @@ namespace shelterJADA.Client.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 1 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 2 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 3 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 4 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 5 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 6 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 7 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 8 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 9 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
 using shelterJADA.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
+#line 10 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\_Imports.razor"
 using shelterJADA.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\OpretBooking.razor"
+#line 2 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\OpretBooking.razor"
 using shelterJADA.Shared;
 
 #line default
@@ -98,7 +98,7 @@ using shelterJADA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 118 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\OpretBooking.razor"
+#line 105 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\OpretBooking.razor"
        
     private string fornavn, efternavn, email, telefon, valgtKommune;
 
@@ -112,9 +112,7 @@ using shelterJADA.Shared;
 
     protected override async Task OnInitializedAsync()
     {
-        ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/all");
-
-        AntalKommuner = ShelterListe.Select(x => x.Properties.Cvr_navn).Distinct().ToList();
+        AntalKommuner = await Http.GetFromJsonAsync<List<string>>("ShelterDB/distinctkommune");
 
     }
     
@@ -179,7 +177,7 @@ using shelterJADA.Shared;
 
 
 
-        await Http.PostAsJsonAsync<Booking>("BookingsDB", nyBooking);
+        await Http.PostAsJsonAsync<Booking>("BookingsDB/opret", nyBooking);
     }
 
 #line default

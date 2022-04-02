@@ -4,32 +4,9 @@
 
 <h1>Opret en booking!</h1>
 
-<select @onchange="vælgShelter">
-    <option selected>Vælg Shelter</option>
-    @if (KommuneSheltere != null)
-{
-    @foreach (var item in KommuneSheltere)
-    {
-            <option value=@item.Id>@item.Properties.Navn</option>
-    }
-}
-</select>
-
-
-
-
 @*BOOTSTRAP!*@
 
-<div class="form-floating col-md-12 mb-12">
-    <select  @onchange="vælgKommune" class="form-select" id="floatingSelect">
-    <option selected>Liste over kommuner</option>
-    @foreach (var item in AntalKommuner)
-    {
-        <option value=@item>@item</option>
-    }
-    </select>
-    <label for="floatingSelect">Shelters i</label>
-</div>
+
 
 
 
@@ -54,7 +31,7 @@
                     <tr>
                         <td>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="shelterKnap" @onchange="vælgShelter">
+                                <input class="form-check-input" type="radio" id="shelterKnap" @onchange="vælgShelter" value=@item.Id name="radAnswer" >
                                     <label class="form-check-label" for="shelterknap"> 
                                     @item.Properties.Navn
                                 </label>
@@ -70,6 +47,16 @@
     </div>
 
     <div class="brugerInput col-md-5">
+        <div class="form-floating mb-3">
+    <select  @onchange="vælgKommune" class="form-select" id="floatingSelect">
+    <option selected>Liste over kommuner</option>
+    @foreach (var item in AntalKommuner)
+    {
+        <option value=@item>@item</option>
+    }
+    </select>
+    <label for="floatingSelect">Shelters i</label>
+</div>
         <div>
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="floatingFornavn" @bind="fornavn" aria-label="First name">
@@ -128,9 +115,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/all");
-
-        AntalKommuner = ShelterListe.Select(x => x.Properties.Cvr_navn).Distinct().ToList();
+        AntalKommuner = await Http.GetFromJsonAsync<List<string>>("ShelterDB/distinctkommune");
 
     }
     
@@ -195,6 +180,6 @@
 
 
 
-        await Http.PostAsJsonAsync<Booking>("BookingsDB", nyBooking);
+        await Http.PostAsJsonAsync<Booking>("BookingsDB/opret", nyBooking);
     }
 }

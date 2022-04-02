@@ -26,12 +26,14 @@ namespace shelterJADA.Server.Controllers
             this.logger = logger;
         }
 
-
+        // Logik at hente sheltere basseret på kommune
         [HttpGet("all")]
         public async Task<IEnumerable<Shelter>> GetAsync()
         {
+
             try
-            {                               
+            {
+
                 var client = new MongoClient("mongodb+srv://admin:cLQhpvD7G3wzvegG@cluster0.gyuyl.mongodb.net/Shelter?retryWrites=true&w=majority");
 
                 var database = client.GetDatabase("Shelter");
@@ -44,24 +46,64 @@ namespace shelterJADA.Server.Controllers
 
                 foreach (var item in list)
                 {
-                    Shelter shelter = new Shelter();
+                        Shelter shelter = new Shelter();
 
-                    Properties opsætning = new Properties();
+                        Properties opsætning = new Properties();
 
-                    opsætning.Cvr_navn = item["properties"]["cvr_navn"].ToString();
-                    opsætning.Kommunekode = item["properties"]["kommunekode"].ToInt32();
-                    opsætning.Facil_ty = item["properties"]["facil_ty"].ToString();
-                    opsætning.Navn = item["properties"]["navn"].ToString();
-                    opsætning.Beskrivels = item["properties"]["beskrivels"].ToString();
-                    opsætning.Lang_beskr = item["properties"]["lang_beskr"].ToString();
-                    opsætning.Antal_pl = item["properties"]["antal_pl"].ToInt32();
+                        opsætning.Cvr_navn = item["properties"]["cvr_navn"].ToString();
+                        opsætning.Kommunekode = item["properties"]["kommunekode"].ToInt32();
+                        opsætning.Facil_ty = item["properties"]["facil_ty"].ToString();
+                        opsætning.Navn = item["properties"]["navn"].ToString();
+                        opsætning.Beskrivels = item["properties"]["beskrivels"].ToString();
+                        opsætning.Lang_beskr = item["properties"]["lang_beskr"].ToString();
+                        opsætning.Antal_pl = item["properties"]["antal_pl"].ToInt32();
 
-                    shelter.Id = item["_id"].ToString();
-                    shelter.Properties = opsætning;
+                        shelter.Id = item["_id"].ToString();
+                        shelter.Properties = opsætning;
 
                     shelters.Add(shelter);
                 }
                 return shelters;
+            }
+            catch (HttpRequestException) // Non success
+            {
+                Console.WriteLine("An error occurred.");
+            }
+            catch (NotSupportedException) // When content type is not valid
+            {
+                Console.WriteLine("The content type is not supported.");
+            }
+            catch (Newtonsoft.Json.JsonException) // Invalid JSON
+            {
+                Console.WriteLine("Invalid JSON.");
+            }
+            return null;
+        }
+
+        [HttpGet("distinctkommune")]
+        public async Task<IEnumerable<string>> GetKommune()
+        {
+            try
+            {                               
+                var client = new MongoClient("mongodb+srv://admin:cLQhpvD7G3wzvegG@cluster0.gyuyl.mongodb.net/Shelter?retryWrites=true&w=majority");
+
+                var database = client.GetDatabase("Shelter");
+
+                var collection = database.GetCollection<BsonDocument>("Shelters");
+
+                var list = await collection.Find(_ => true).ToListAsync();
+
+                List<string> kommuner = new List<string>();
+
+                foreach (var item in list)
+                {
+                        if (!kommuner.Contains(item["properties"]["cvr_navn"].ToString()))
+                        {
+                        kommuner.Add(item["properties"]["cvr_navn"].ToString());
+                        }
+                }
+
+                return kommuner;
             }
             catch (HttpRequestException) // Non success
             {

@@ -14,6 +14,7 @@ else
     <table class="table table-striped">
         <thead>
             <tr class="table-dark">
+                <th>Slet</th>
                 <th>BookingID</th>
                 <th>Shelternavn</th>
                 <th>ShelterID</th>
@@ -30,7 +31,8 @@ else
 
             @foreach (var booking in BookingListe)
             {
-            <tr>
+                <tr>
+                <td><input type="button" value="Slet" @onclick="() => SletBooking(booking)"></td>
                 <td>@booking.Id</td>
                 <td>@booking.udlejet_shelter.shelter_navn</td>
                 <td>@booking.udlejet_shelter.shelter_id</td>
@@ -52,8 +54,10 @@ else
 
     @*Laver en tom shelterliste*@
 
-    private List<Booking> BookingListe;
+            Booking booking = new Booking();
 
+
+    private List<Booking> BookingListe;
 
     @*Lægger data i shelterliste*@
 
@@ -61,6 +65,14 @@ else
     {
         BookingListe = await Http.GetFromJsonAsync<List<Booking>>("BookingsDB");
 
+    }
+
+   
+    //Post-funktion til at slette  en booking
+    protected async Task SletBooking(Booking booking)
+    {
+
+        await Http.PostAsJsonAsync<Booking>("BookingsDB/slet", booking);
     }
 
 }
