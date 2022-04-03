@@ -5,58 +5,60 @@
 <h1>Opret en booking</h1>
 
 <div class="row">
+    @*TABEL DIV*@
     <div class="shelterTabel col-md-7">
-            <div class="table-responsive rounded">
-                <table class="table table-striped">
-                    <thead>
-                        <tr class="table-dark">
-                            <th class="col-md-4">Shelter</th>
-                            <th class="col-md-2">Antal Pladser</th>
-                            <th class="col-md-6">Beskrivelse</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @if (KommuneSheltere != null)
+        <div class="table-responsive rounded">
+            <table class="table table-striped">
+                <thead>
+                    <tr class="table-dark">
+                        <th class="col-md-4">Shelter</th>
+                        <th class="col-md-2">Antal Pladser</th>
+                        <th class="col-md-6">Beskrivelse</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Kommuner != null)
+                    {
+                        @foreach (var item in Kommuner)
                         {
-                            @foreach (var item in KommuneSheltere)
-                            {
-                            <tr>
-                                <td>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" id="shelterKnap" @onchange="vælgShelter" value=@item.Id name="radAnswer" >
-                                            <label class="form-check-label" for="shelterknap"> 
-                                            @item.Properties.Navn
-                                        </label>
-                                    </div>
-                                </td>
-                                <td>@item.Properties.Antal_pl</td>
-                                <td>@item.Properties.Beskrivels</td>
-                            </tr>               
-                            }
+                        <tr>
+                            <td>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" id="shelterKnap" @onchange="vælgShelter" value=@item.Id name="radAnswer" >
+                                        <label class="form-check-label" for="shelterknap"> 
+                                        @item.Properties.Navn
+                                    </label>
+                                </div>
+                            </td>
+                            <td>@item.Properties.Antal_pl</td>
+                            <td>@item.Properties.Beskrivels</td>
+                        </tr>               
                         }
-                    </tbody>
-                </table>
+                    }
+                </tbody>
+            </table>
         </div>
     </div>
 
+    @*BRUGER INPUT DIV*@
     <div class="brugerInput col-md-5">
         <div class="form-floating mb-5">
-    <select  @onchange="vælgKommune" class="form-select" id="floatingSelect">
-    <option selected>Liste over kommuner</option>
-    @foreach (var item in AntalKommuner)
-    {
-        <option value=@item>@item</option>
-    }
-    </select>
-    <label for="floatingSelect">Shelters i</label>
-</div>
+            <select @onchange="vælgKommune" class="form-select" id="floatingSelect">
+                <option selected>Liste over kommuner</option>
+                @foreach (var item in KommuneListe)
+                {
+                    <option value=@item>@item</option>
+                }
+            </select>
+            <label for="floatingSelect">Shelters i</label>
+        </div>
         <div>
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingFornavn" @bind="fornavn" aria-label="First name">
+                <input type="text" class="form-control" id="floatingFornavn" @bind="fornavn">
                 <label for="floatingFornavn">Fornavn</label>
             </div>
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingEfternavn" @bind="efternavn" aria-label="Last name">
+                <input type="text" class="form-control" id="floatingEfternavn" @bind="efternavn">
                 <label for="floatingEfternavn">Efternavn</label>
             </div>
         </div>
@@ -91,7 +93,7 @@
             </div>
         </div>
 
-        <input class="btn btn-success" type="submit" @onclick="SendData" value="Book Shelter" />
+        <input class="btn btn-success" type="submit" @onclick="SendData" value="Book Shelter"/>
     </div>
 </div>
 
@@ -102,13 +104,12 @@
     private DateTime slut_dato = DateTime.Now.AddDays(1);
 
     public Shelter valgteShelter = new Shelter();
-    public List<Shelter> ShelterListe;
-    public List<string> AntalKommuner = new List<string>();
-    public List<Shelter> KommuneSheltere;
+    public List<string> KommuneListe = new List<string>();
+    public List<Shelter> Kommuner;
 
     protected override async Task OnInitializedAsync()
     {
-        AntalKommuner = await Http.GetFromJsonAsync<List<string>>("ShelterDB/distinctkommune");
+        KommuneListe = await Http.GetFromJsonAsync<List<string>>("ShelterDB/distinctkommune");
 
     }
 
@@ -125,11 +126,9 @@
     //Get-funktion til at hente sheltere i controlleren
     protected async Task<List<Shelter>> GetKommuneSheltere(string kommunenavn)
     {
-        return KommuneSheltere = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/kommune?kommunenavn="+kommunenavn);
+        return Kommuner = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/kommune?kommunenavn="+kommunenavn);
 
     }
-
-
 
     //Finder shelter ID og navn baseret på valgte shelter
     public async Task vælgShelter(ChangeEventArgs e)
@@ -148,29 +147,30 @@
 
     }
 
-
-
     //Post-funktion til at oprette en booking
     protected async Task SendData()
     {
-        Booking nyBooking = new Booking();
         Bruger nyBruger = new Bruger();
-        Udlejet_Shelter nyUdlejet_Shelter = new Udlejet_Shelter();
 
         nyBruger.fornavn = fornavn;
         nyBruger.efternavn = efternavn;
         nyBruger.email = email;
         nyBruger.telefon = telefon;
 
-        nyBooking.slut_dato = slut_dato.AddDays(1);
-        nyBooking.start_dato = start_dato.AddDays(1);
+        Udlejet_Shelter nyUdlejet_Shelter = new Udlejet_Shelter();
 
         nyUdlejet_Shelter.shelter_id = valgteShelter.Id.ToString();
         nyUdlejet_Shelter.shelter_navn = valgteShelter.Properties.Navn.ToString();
 
+        Booking nyBooking = new Booking();
+
+        nyBooking.slut_dato = slut_dato.AddDays(1);
+        nyBooking.start_dato = start_dato.AddDays(1);
+
         nyBooking.bruger = nyBruger;
         nyBooking.udlejet_shelter = nyUdlejet_Shelter;
 
+        // Resetter variablerne
         fornavn = string.Empty;
         efternavn = string.Empty;
         email = string.Empty;
@@ -178,7 +178,7 @@
         slut_dato = DateTime.Now.AddDays(1);
         start_dato = DateTime.Now;
 
-
+        // Opretter booking med nyBooking variablen.
         await Http.PostAsJsonAsync<Booking>("BookingsDB/opret", nyBooking);
     }
 }

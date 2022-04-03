@@ -11,51 +11,50 @@
 }
 else
 {
-    <table class="table table-striped">
-        <thead>
-            <tr class="table-dark">
-                <th>Slet</th>
-                <th>BookingID</th>
-                <th>Shelternavn</th>
-                <th>ShelterID</th>
-                <th>Fornavn</th>
-                <th>Efternavn</th>
-                <th>Email</th>
-                <th>Telefon</th>
-                <th>Start Dato</th>
-                <th>Slut Dato </th>
-            </tr>
-        </thead>
-        <tbody>
-            @*Laver loop med hvert item i BookingListe*@
+    <div class="table-responsive rounded">
+        <table class="table table-striped">
+            <thead>
+                <tr class="table-dark">
+                    <th>Slet</th>
+                    <th>BookingID</th>
+                    <th>Shelternavn</th>
+                    <th>ShelterID</th>
+                    <th>Fornavn</th>
+                    <th>Efternavn</th>
+                    <th>Email</th>
+                    <th>Telefon</th>
+                    <th>Start Dato</th>
+                    <th>Slut Dato </th>
+                </tr>
+            </thead>
+            <tbody>
+                @*Laver loop med hvert item i BookingListe*@
 
-            @foreach (var booking in BookingListe)
-            {
-                <tr>
-                <td><input type="button" class="btn btn-danger" value="Slet" @onclick="() => SletBooking(booking)"></td>
-                <td>@booking.Id</td>
-                <td>@booking.udlejet_shelter.shelter_navn</td>
-                <td>@booking.udlejet_shelter.shelter_id</td>
-                <td>@booking.bruger.fornavn</td>
-                <td>@booking.bruger.efternavn</td>
-                <td>@booking.bruger.email</td>
-                <td>@booking.bruger.telefon</td>
-                <td>@booking.start_dato.ToShortDateString()</td>
-                <td>@booking.slut_dato.ToShortDateString()</td>
-
-            </tr>
-            }
-        </tbody>
-    </table>
-
+                @foreach (var booking in BookingListe)
+                {
+                    <tr>
+                        <td><input type="button" class="btn btn-danger" value="Slet" @onclick="() => SletBooking(booking)"></td>
+                        <td>@booking.Id</td>
+                        <td>@booking.udlejet_shelter.shelter_navn</td>
+                        <td>@booking.udlejet_shelter.shelter_id</td>
+                        <td>@booking.bruger.fornavn</td>
+                        <td>@booking.bruger.efternavn</td>
+                        <td>@booking.bruger.email</td>
+                        <td>@booking.bruger.telefon</td>
+                        <td>@booking.start_dato.ToShortDateString()</td>
+                        <td>@booking.slut_dato.ToShortDateString()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 }
 
 @code {
 
     @*Laver en tom shelterliste*@
 
-            Booking booking = new Booking();
-
+    Booking booking = new Booking();
 
     private List<Booking> BookingListe;
 
@@ -67,7 +66,6 @@ else
 
     }
 
-   
     //Post-funktion til at slette  en booking
     protected async Task SletBooking(Booking booking)
     {

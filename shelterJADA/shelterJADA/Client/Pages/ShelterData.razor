@@ -10,36 +10,37 @@
 }
 else
 {
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Gem ændringer</th>
-                <th>ShelterID</th>
-                <th>Kommunekode</th>
-                <th>Kommunenavn</th>
-                <th>Shelternavn</th>
-                <th>Antal pladser</th>
-                <th>Beskrivelse</th>
-            </tr>
-        </thead>
-        <tbody>
-            @*Laver loop med hvert item i ShelterListe*@
+    <div class="table-responsive rounded">
+        <table class="table table-striped">
+            <thead>
+                <tr class="table-dark">
+                    <th>Gem ændringer</th>
+                    <th>ShelterID</th>
+                    <th>Kommunekode</th>
+                    <th>Kommunenavn</th>
+                    <th>Shelternavn</th>
+                    <th>Antal pladser</th>
+                    <th>Beskrivelse</th>
+                </tr>
+            </thead>
+            <tbody>
+                @*Laver loop med hvert item i ShelterListe*@
 
-            @foreach (var shelter in ShelterListe)
-            {
-            <tr>
-                <td><input type="button" class="btn btn-primary" value="Opdater" @onclick="() => OpdaterShelter(shelter)"></td>
-                <td> @shelter.Id</td>
-                <td><input @bind="shelter.Properties.Kommunekode"></td>
-                <td><input @bind="shelter.Properties.Cvr_navn"></td>
-                <td><input @bind="shelter.Properties.Navn"></td>
-                <td><input @bind="shelter.Properties.Antal_pl"></td>
-                <td><input @bind="shelter.Properties.Beskrivels"></td>
-               
-            </tr>
-            }
-        </tbody>
-    </table>
+                @foreach (var shelter in ShelterListe)
+                {
+                <tr>
+                    <td><input type="button" class="btn btn-primary" value="Opdater" @onclick="() => OpdaterShelter(shelter)"></td>
+                    <td> @shelter.Id</td>
+                    <td><input type="text" class="form-control" @bind="shelter.Properties.Kommunekode"></td>
+                    <td><input type="text" class="form-control" @bind="shelter.Properties.Cvr_navn"></td>
+                    <td><input type="text" class="form-control" @bind="shelter.Properties.Navn"></td>
+                    <td><input type="text" class="form-control" @bind="shelter.Properties.Antal_pl"></td>
+                    <td><input type="text" class="form-control" @bind="shelter.Properties.Beskrivels"></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 }
 
 @code {

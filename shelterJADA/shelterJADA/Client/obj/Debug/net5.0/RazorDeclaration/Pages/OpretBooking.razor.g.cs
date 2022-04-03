@@ -98,7 +98,7 @@ using shelterJADA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 98 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\OpretBooking.razor"
+#line 100 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\OpretBooking.razor"
        
     private string fornavn, efternavn, email, telefon, valgtKommune;
 
@@ -106,13 +106,12 @@ using shelterJADA.Shared;
     private DateTime slut_dato = DateTime.Now.AddDays(1);
 
     public Shelter valgteShelter = new Shelter();
-    public List<Shelter> ShelterListe;
-    public List<string> AntalKommuner = new List<string>();
-    public List<Shelter> KommuneSheltere;
+    public List<string> KommuneListe = new List<string>();
+    public List<Shelter> Kommuner;
 
     protected override async Task OnInitializedAsync()
     {
-        AntalKommuner = await Http.GetFromJsonAsync<List<string>>("ShelterDB/distinctkommune");
+        KommuneListe = await Http.GetFromJsonAsync<List<string>>("ShelterDB/distinctkommune");
 
     }
 
@@ -129,11 +128,9 @@ using shelterJADA.Shared;
     //Get-funktion til at hente sheltere i controlleren
     protected async Task<List<Shelter>> GetKommuneSheltere(string kommunenavn)
     {
-        return KommuneSheltere = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/kommune?kommunenavn="+kommunenavn);
+        return Kommuner = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/kommune?kommunenavn="+kommunenavn);
 
     }
-
-
 
     //Finder shelter ID og navn baseret på valgte shelter
     public async Task vælgShelter(ChangeEventArgs e)
@@ -152,29 +149,30 @@ using shelterJADA.Shared;
 
     }
 
-
-
     //Post-funktion til at oprette en booking
     protected async Task SendData()
     {
-        Booking nyBooking = new Booking();
         Bruger nyBruger = new Bruger();
-        Udlejet_Shelter nyUdlejet_Shelter = new Udlejet_Shelter();
 
         nyBruger.fornavn = fornavn;
         nyBruger.efternavn = efternavn;
         nyBruger.email = email;
         nyBruger.telefon = telefon;
 
-        nyBooking.slut_dato = slut_dato.AddDays(1);
-        nyBooking.start_dato = start_dato.AddDays(1);
+        Udlejet_Shelter nyUdlejet_Shelter = new Udlejet_Shelter();
 
         nyUdlejet_Shelter.shelter_id = valgteShelter.Id.ToString();
         nyUdlejet_Shelter.shelter_navn = valgteShelter.Properties.Navn.ToString();
 
+        Booking nyBooking = new Booking();
+
+        nyBooking.slut_dato = slut_dato.AddDays(1);
+        nyBooking.start_dato = start_dato.AddDays(1);
+
         nyBooking.bruger = nyBruger;
         nyBooking.udlejet_shelter = nyUdlejet_Shelter;
 
+        // Resetter variablerne
         fornavn = string.Empty;
         efternavn = string.Empty;
         email = string.Empty;
@@ -182,7 +180,7 @@ using shelterJADA.Shared;
         slut_dato = DateTime.Now.AddDays(1);
         start_dato = DateTime.Now;
 
-
+        // Opretter booking med nyBooking variablen.
         await Http.PostAsJsonAsync<Booking>("BookingsDB/opret", nyBooking);
     }
 

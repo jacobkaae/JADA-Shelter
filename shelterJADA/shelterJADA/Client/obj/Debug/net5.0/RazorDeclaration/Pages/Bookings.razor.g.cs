@@ -101,8 +101,7 @@ using shelterJADA.Shared;
 #line 55 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\Bookings.razor"
                                  
 
-            Booking booking = new Booking();
-
+    Booking booking = new Booking();
 
     private List<Booking> BookingListe;
 
@@ -112,7 +111,7 @@ using shelterJADA.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 62 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\Bookings.razor"
+#line 61 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\Bookings.razor"
                                   
 
     protected override async Task OnInitializedAsync()
@@ -121,7 +120,6 @@ using shelterJADA.Shared;
 
     }
 
-   
     //Post-funktion til at slette  en booking
     protected async Task SletBooking(Booking booking)
     {

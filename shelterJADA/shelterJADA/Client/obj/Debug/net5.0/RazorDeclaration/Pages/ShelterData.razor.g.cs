@@ -98,7 +98,7 @@ using shelterJADA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 47 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\ShelterData.razor"
+#line 48 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\ShelterData.razor"
                                  
 
     private List<Shelter> ShelterListe;
@@ -110,7 +110,7 @@ using shelterJADA.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 52 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\ShelterData.razor"
+#line 53 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\ShelterData.razor"
                                   
 
     protected override async Task OnInitializedAsync()
