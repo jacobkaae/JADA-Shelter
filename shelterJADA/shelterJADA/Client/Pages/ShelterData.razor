@@ -4,8 +4,6 @@
 
 <h1>ShelterData</h1>
 
-<p>This component demonstrates fetching data from the server.t</p>
-
 @if (ShelterListe == null)
 {
     <p><em>Loading...</em></p>
@@ -15,13 +13,13 @@ else
     <table class="table">
         <thead>
             <tr>
+                <th>Gem ændringer</th>
                 <th>ID</th>
                 <th>Kommunekode</th>
                 <th>Kommunenavn</th>
                 <th>Shelternavn</th>
                 <th>Antal pladser</th>
                 <th>K-beskrivelse</th>
-                
             </tr>
         </thead>
         <tbody>
@@ -30,12 +28,13 @@ else
             @foreach (var shelter in ShelterListe)
             {
             <tr>
-                <td>@shelter.Id</td>
-                <td>@shelter.Properties.Kommunekode</td>
-                <td>@shelter.Properties.Cvr_navn</td>
-                <td>@shelter.Properties.Navn</td>
-                <td>@shelter.Properties.Antal_pl</td>
-                <td>@shelter.Properties.Beskrivels</td>
+                <td><input type="button" value="Opdater" @onclick="() => OpdaterShelter(shelter)"></td>
+                <td> @shelter.Id</td>
+                <td><input @bind="shelter.Properties.Kommunekode"></td>
+                <td><input @bind="shelter.Properties.Cvr_navn"></td>
+                <td><input @bind="shelter.Properties.Navn"></td>
+                <td><input @bind="shelter.Properties.Antal_pl"></td>
+                <td><input @bind="shelter.Properties.Beskrivels"></td>
                
             </tr>
             }
@@ -56,6 +55,12 @@ else
     {
         ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/all");
 
+    }
+
+    //Post-funktion til at opdatere en shelter
+    protected async Task OpdaterShelter(Shelter shelter)
+    {
+        await Http.PostAsJsonAsync<Shelter>("ShelterDB/opdater", shelter);
     }
 
 }

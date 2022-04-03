@@ -205,14 +205,13 @@
       "netstandard.dll": "sha256-bY3Q1RCB\/lmUAo5AG5YDHBu5uD8OxCGAiJ+wukrs1pw=",
       "System.Private.CoreLib.dll": "sha256-25IZl0xgoqOBdkTlEjUBLmiiRGYCYI1BaFevKzE+EHk=",
       "shelterJADA.Shared.dll": "sha256-Rme1oI9RY9bwGjiuMZjTQ50e3K5BrLQZqEQesTycMMg=",
-      "shelterJADA.Client.dll": "sha256-OYR8CzE77r5jnScw8Xmz8T52\/hA6o03FoXbYBwfEzqU="
+      "shelterJADA.Client.dll": "sha256-XIQvW72hckq3gLv2IG2kna6VGTkOHIOGDxXrZMDDwzE="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "shelterJADA.Shared.pdb": "sha256-+UGAH+3rZWCZsOEMcf4AemYa2iTrAfPw57xVIn4NAxM=",
-      "shelterJADA.Client.pdb": "sha256-5ZPd+u64TuSHuUXNKY5maIvCJqDEJZiOux5xqZkNiBA="
+      "shelterJADA.Client.pdb": "sha256-XSgUkLZTp33TS0\/gU+4Jn1PdNFkN6wpWYl86AJTrdyk="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-Ek+C0V\/4GBnUGH1\/X20UjHhjyp7se2MX+2RHWSpKSDE=",

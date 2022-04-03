@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj": {}
+    "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj": {
+    "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj",
         "projectName": "shelterJADA.Shared",
-        "projectPath": "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj",
+        "projectPath": "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj",
         "packagesPath": "C:\\Users\\Jacob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",

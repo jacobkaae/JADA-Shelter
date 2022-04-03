@@ -192,6 +192,7 @@ namespace shelterJADA.Server.Controllers
                 
                 var collection = database.GetCollection<BsonDocument>("Shelters");
 
+
                 var list = await collection.Find(_ => true).ToListAsync();
 
                 foreach (var item in list)
@@ -237,19 +238,23 @@ namespace shelterJADA.Server.Controllers
             return null;
         }
 
+        // Logik til at opdatere booking
+        [HttpPost("opdater")]
+        public async Task OpdaterShelter(Shelter shelter)
+        {
+            var client = new MongoClient("mongodb+srv://admin:cLQhpvD7G3wzvegG@cluster0.gyuyl.mongodb.net/Shelter?retryWrites=true&w=majority");
+
+            var database = client.GetDatabase("Shelter");
+
+            var collection = database.GetCollection<BsonDocument>("Shelters");
+
+            var deleteFilter = Builders<BsonDocument>.Filter.Eq("_id", shelter.Id);
+
+            await collection.ReplaceOneAsync(deleteFilter, shelter.ToBsonDocument());
+
+        }
 
 
-
-
-        //        foreach (var item in liste)
-        //        {
-        //            float price = (float)item["price"];
-        //OnlineItem nytOnlineItem = new OnlineItem($"{item["title"]}", false, price, $"{item["description"]}");
-
-        //virkNuPlz.Add(nytOnlineItem);
-        //        }
-
-        //        return virkNuPlz;
 
 
 

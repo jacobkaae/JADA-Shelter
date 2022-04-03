@@ -49,6 +49,7 @@ C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Shared\bin\Debu
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Shared\bin\Debug\net5.0\shelterJADA.Shared.dll
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Shared\bin\Debug\net5.0\ref\shelterJADA.Shared.dll
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Shared\bin\Debug\net5.0\shelterJADA.Shared.pdb
+C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Shared\obj\Debug\net5.0\shelterJADA.Shared.csproj.AssemblyReference.cache
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Shared\obj\Debug\net5.0\shelterJADA.Shared.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Shared\obj\Debug\net5.0\shelterJADA.Shared.AssemblyInfoInputs.cache
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Shared\obj\Debug\net5.0\shelterJADA.Shared.AssemblyInfo.cs

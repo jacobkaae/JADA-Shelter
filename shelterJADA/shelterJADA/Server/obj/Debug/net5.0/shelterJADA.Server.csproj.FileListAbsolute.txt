@@ -317,13 +317,6 @@ C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\ne
 C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.pdb
 C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.genruntimeconfig.cache
 C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\ref\shelterJADA.Server.dll
-C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.AssemblyInfoInputs.cache
-C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.AssemblyInfo.cs
-C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.csproj.CoreCompileInputs.cache
-C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.RazorAssemblyInfo.cache
-C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.RazorAssemblyInfo.cs
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\bin\Debug\net5.0\shelterJADA.Client.StaticWebAssets.xml
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\bin\Debug\net5.0\appsettings.json
@@ -382,6 +375,13 @@ C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\bin\Debu
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\bin\Debug\net5.0\shelterJADA.Client.pdb
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\bin\Debug\net5.0\shelterJADA.Shared.pdb
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.csproj.AssemblyReference.cache
+C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.AssemblyInfoInputs.cache
+C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.AssemblyInfo.cs
+C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.RazorAssemblyInfo.cache
+C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\shelterJADA.Server.RazorAssemblyInfo.cs
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\scopedcss\bundle\shelterJADA.Server.styles.css
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\staticwebassets\shelterJADA.Server.StaticWebAssets.Manifest.cache
 C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Server\obj\Debug\net5.0\staticwebassets\shelterJADA.Server.StaticWebAssets.xml

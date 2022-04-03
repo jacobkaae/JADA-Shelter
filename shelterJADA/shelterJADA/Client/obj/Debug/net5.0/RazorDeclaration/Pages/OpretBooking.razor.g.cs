@@ -115,7 +115,7 @@ using shelterJADA.Shared;
         AntalKommuner = await Http.GetFromJsonAsync<List<string>>("ShelterDB/distinctkommune");
 
     }
-    
+
     //Finder sheltere baseret på valgte kommune
     public async Task vælgKommune(ChangeEventArgs e)
     {
@@ -135,7 +135,7 @@ using shelterJADA.Shared;
 
 
 
-      //Finder shelter ID og navn baseret på valgte shelter
+    //Finder shelter ID og navn baseret på valgte shelter
     public async Task vælgShelter(ChangeEventArgs e)
     {
         var shelterId = e.Value.ToString();
@@ -175,6 +175,12 @@ using shelterJADA.Shared;
         nyBooking.bruger = nyBruger;
         nyBooking.udlejet_shelter = nyUdlejet_Shelter;
 
+        fornavn = string.Empty;
+        efternavn = string.Empty;
+        email = string.Empty;
+        telefon = string.Empty;
+        slut_dato = DateTime.Now.AddDays(1);
+        start_dato = DateTime.Now;
 
 
         await Http.PostAsJsonAsync<Booking>("BookingsDB/opret", nyBooking);

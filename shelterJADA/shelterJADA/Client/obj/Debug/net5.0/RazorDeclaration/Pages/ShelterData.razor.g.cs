@@ -98,7 +98,7 @@ using shelterJADA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 48 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\ShelterData.razor"
+#line 47 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\ShelterData.razor"
                                  
 
     private List<Shelter> ShelterListe;
@@ -110,13 +110,19 @@ using shelterJADA.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 53 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\ShelterData.razor"
+#line 52 "C:\Users\Jacob\Source\Repos\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\ShelterData.razor"
                                   
 
     protected override async Task OnInitializedAsync()
     {
         ShelterListe = await Http.GetFromJsonAsync<List<Shelter>>("ShelterDB/all");
 
+    }
+
+    //Post-funktion til at opdatere en shelter
+    protected async Task OpdaterShelter(Shelter shelter)
+    {
+        await Http.PostAsJsonAsync<Shelter>("ShelterDB/opdater", shelter);
     }
 
 
