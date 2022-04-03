@@ -98,7 +98,7 @@ using shelterJADA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 98 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\OpretBooking.razor"
+#line 102 "C:\Users\Anders\Desktop\JADA-Shelter\shelterJADA\shelterJADA\Client\Pages\OpretBooking.razor"
        
     private string fornavn, efternavn, email, telefon, valgtKommune;
 
