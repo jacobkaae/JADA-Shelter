@@ -6004,11 +6004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Server\\shelterJADA.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Server\\shelterJADA.Server.csproj",
       "projectName": "shelterJADA.Server",
-      "projectPath": "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Server\\shelterJADA.Server.csproj",
+      "projectPath": "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Server\\shelterJADA.Server.csproj",
       "packagesPath": "C:\\Users\\Jacob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Server\\obj\\",
+      "outputPath": "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6025,11 +6025,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Client\\shelterJADA.Client.csproj": {
-              "projectPath": "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Client\\shelterJADA.Client.csproj"
+            "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Client\\shelterJADA.Client.csproj": {
+              "projectPath": "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Client\\shelterJADA.Client.csproj"
             },
-            "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj": {
-              "projectPath": "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj"
+            "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj": {
+              "projectPath": "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Shared\\shelterJADA.Shared.csproj"
             }
           }
         }

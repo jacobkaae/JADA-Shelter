@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kkmz98HY7tgve5zf3sfcf7k8CRsxx3WqRrORHEw0E7o9CMrlgjYTCKIL6M/Rd0oQSQ4nKt0QRl8NOyr4/jdYSQ==",
+  "dgSpecHash": "XV9tMyIlgqDVADSOBuSpY7gsTRqYwKg2+URvIbs9y0VDxtjhaiqdTRH4LO6+akjSHr2Fu7L6B39WxoKEZ0651Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jacob\\source\\repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Server\\shelterJADA.Server.csproj",
+  "projectFilePath": "C:\\Users\\Jacob\\Source\\Repos\\JADA-Shelter\\shelterJADA\\shelterJADA\\Server\\shelterJADA.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jacob\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",
     "C:\\Users\\Jacob\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
