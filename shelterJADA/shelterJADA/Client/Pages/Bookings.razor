@@ -32,7 +32,7 @@ else
             @foreach (var booking in BookingListe)
             {
                 <tr>
-                <td><input type="button" value="Slet" @onclick="() => SletBooking(booking)"></td>
+                <td><input type="button" class="btn btn-danger" value="Slet" @onclick="() => SletBooking(booking)"></td>
                 <td>@booking.Id</td>
                 <td>@booking.udlejet_shelter.shelter_navn</td>
                 <td>@booking.udlejet_shelter.shelter_id</td>
