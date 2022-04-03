@@ -125,8 +125,10 @@ using shelterJADA.Shared;
     //Post-funktion til at slette  en booking
     protected async Task SletBooking(Booking booking)
     {
-
         await Http.PostAsJsonAsync<Booking>("BookingsDB/slet", booking);
+
+        BookingListe = await Http.GetFromJsonAsync<List<Booking>>("BookingsDB");
+
     }
 
 
