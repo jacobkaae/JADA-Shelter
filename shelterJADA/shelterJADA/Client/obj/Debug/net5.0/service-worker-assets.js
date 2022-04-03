@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-uhI0PE9Q8FMra2NSxZPc8M65TE9WDkyrzPONCOkAjII=",
+      "hash": "sha256-P8LhoGBAwIZPsHVKo7UtnwVXgcB8S3dXTHTMbdxme0Q=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -829,11 +829,11 @@
       "url": "_framework\/shelterJADA.Shared.pdb"
     },
     {
-      "hash": "sha256-kyBkn6lMsElJZpgWgWkj0HqqKqe95tRqNEDIVrhmYvQ=",
+      "hash": "sha256-56dU+M9WwC2pVX0fjR3s5XwtdjmxkWDmvg5fHPVnODA=",
       "url": "_framework\/shelterJADA.Client.dll"
     },
     {
-      "hash": "sha256-+KljoZ\/\/vFdJ8NM9mKDUg8qisJY1r8PPFE5EVfFj9ds=",
+      "hash": "sha256-hYVbjuwn+L5i\/4knSv5OL9+oJKY1abjiLdayiRAaTw4=",
       "url": "_framework\/shelterJADA.Client.pdb"
     },
     {
@@ -1733,5 +1733,5 @@
       "url": "shelterJADA.Client.bundle.scp.css"
     }
   ],
-  "version": "Cgv78iDF"
+  "version": "k\/ajIRUi"
 };
